@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<flex-config>
+   <compiler>
+      <fonts>
+          <!-- a set of european characters, plus eastern uerope, plus cyrillic range U+0400-U+04FF -->
+          <languages>
+            <language-range>
+                <lang>Europe</lang>
+                <range>U+0020-U+007E,U+00A1-U+00FF,U+2000-U+206F,U+20A0-U+20CF,U+2100-U+2183,U+0100-U+01FF,U+2000-U+206F,U+20A0-U+20CF,U+2100-U+2183,U+0400-U+04FF</range>
+            </language-range>
+            <!-- a wider set based on http://frankieloscavio.blogspot.com/2008/01/flex-embedded-fonts-more-control-over.html -->
+            <language-range>
+                <lang>EuropeBig</lang>
+                <range>U+0020-U+007E,U+00A1-U+00FF,U+2000-U+206F,U+20A0-U+20CF,U+2100-U+2183,U+0100-U+01FF,U+1E00-U+1EFF</range>
+            </language-range>
+          </languages>
+          
+      </fonts>
+   </compiler>
+</flex-config>
