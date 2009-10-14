@@ -1,7 +1,10 @@
 package com.liksaite.generator {
+  import flash.system.LoaderContext;
+
   import gs.easing.Quad;
 
   import flash.utils.setTimeout;
+
   import gs.easing.Back;
 
   import flash.system.Security;
@@ -40,14 +43,15 @@ package com.liksaite.generator {
 
     private var _loader : Loader;
     private var _images : Array;
-    private var _list : String;
+    private var _list : Array;
     private var _inited : Boolean;
     private var _poststr : String;    private var _posts : Array;
+    private static const BLOG_PATH : String = "http://tekstaiyracia.tumblr.com";
+    private var _logo : Loader;
 
     public function IngaGen() {
       
-      Security.allowDomain('tumblr.com');      Security.allowDomain('flickr.com');
-      //      stage.scaleMode = StageScaleMode.NO_SCALE;
+      Security.allowDomain('tumblr.com');      Security.allowDomain('flickr.com');      //      stage.scaleMode = StageScaleMode.NO_SCALE;
       stage.align = StageAlign.TOP_LEFT;
       
 
@@ -57,56 +61,52 @@ package com.liksaite.generator {
 
     private function onInit(event : Event) : void {
       _images = [];
-      _list = "";
+      _list = [];
       // TODO: load the list every 30 seconds, extract the diffrence, do load Images
       var textLoader : URLLoader = new URLLoader();
-      var imageListLoader : URLLoader = new URLLoader();
+      var imageListLoader : URLLoader = new URLLoader();      _logo = new Loader();
       imageListLoader.addEventListener(Event.COMPLETE, function(event : Event):void {
-        trace('list loaded:\n' + imageListLoader.data);
-        // compare the list with the previous
-        if(_list !== imageListLoader.data) {
-          if(_list.length < imageListLoader.data.length) {
-            var notloaded : Array = imageListLoader.data.replace(_list, '').replace(/\n$/, '').split('\n');
-            loadImages(notloaded);
-          } else {
-            var removed : Array = _list.replace(imageListLoader.data, '').replace(/\n$/, '').split('\n');
-            removeImages(removed);
-          }
-          _list = imageListLoader.data;
-        }
+        var dataString : String = String(imageListLoader.data).replace(/^\(|\)$/gm, '');
+        //        trace('list loaded:\n' + dataString);
+        var feed : Array = JSON.decode(dataString).items;
+        loadImages(feed);
+        _list = feed;
       });
       textLoader.addEventListener(Event.COMPLETE, function(event : Event):void {
         trace('text loaded:\n' + textLoader.data);
         var feed : Object = JSON.decode(textLoader.data);
-        
         _posts = feed.posts;
         trace('feed.tumblelog.posts' + feed.posts);
       });
+      _logo.contentLoaderInfo.addEventListener(Event.INIT, function(event : Event):void {
+        addChild(_logo);
+        TweenLite.from(_logo, 2, {alpha: 0});
+      });
       // load the list with file names
       var getTheList : Function = function():void {
-        imageListLoader.load(new URLRequest("list.php?" + (Math.random() * 50000)));
-        textLoader.load(new URLRequest("http://fuckyeahkurtvonnegut.tumblr.com/api/read/json?debug=1&type=quote"));
+        imageListLoader.load(new URLRequest("http://api.flickr.com/services/feeds/photos_public.gne?tags=tekstaiyracia&tagmode=any&format=json&jsoncallback=?"));
+        textLoader.load(new URLRequest(BLOG_PATH + "/api/read/json?debug=1&type=text"));
       }
+      _logo.load(new URLRequest("images/logo.png"));
       getTheList();
       setInterval(getTheList, 120000);
     }
 
     private function removeImages(removed : Array) : void {
-    	
-      var filtered : Array = [];
-      for (var i : uint = 0, l : uint = _images.length;i < l;i++) {
-        if(findInArray(removed, _images[i].uri) < 0) {
-          filtered.push(_images[i]);
-        }
-      }
-      trace('remove images:' + removed + '\n left:' + _images);
-      _images = filtered;
+//    	
+//      var filtered : Array = [];
+//      for (var i : uint = 0, l : uint = _images.length;i < l;i++) {
+//        if(findUriArray(removed, _images[i].uri) < 0) {
+//          filtered.push(_images[i]);
+//        }
+//      }
+//      trace('remove images:' + removed + '\n left:' + _images);
+//      _images = filtered;
     }
 
-    private function findInArray(arr : Array, str : String) : Number {
+    private function findUriArray(arr : Array, str : String) : Number {
       for (var i : uint = 0, l : uint = arr.length;i < l;i++) {
-        if(arr[i] == str) {
-          trace('found:' + arr[i]);
+        if(arr[i].uri == str) {
           return i;
         }
       }
@@ -115,9 +115,18 @@ package com.liksaite.generator {
 
     private function loadImages(data : Array) : void {
 
-      trace('load images :' + data)
-      var uri : String = data.shift();
+      trace('load images :' + data[0].title)      var uri : String = data.shift().media.m;
+      // load only images that are not yet loaded
+      if(findUriArray(_images, uri) >= 0) {
+      	
+        trace('already loaded :' + uri)
+        if(data.length > 0) { 
+          loadImages(data);
+        }
+        return;
+      }
       var request : URLRequest = new URLRequest(uri);
+      
       _loader = new Loader();
       _loader.contentLoaderInfo.addEventListener(Event.INIT, function(event : Event):void {
         _images.push({uri: uri, data: Bitmap(_loader.content).bitmapData});
@@ -127,19 +136,21 @@ package com.liksaite.generator {
           onInitImages();
         }
       });
-      _loader.load(request);
+      var context : LoaderContext = new LoaderContext();
+      context.checkPolicyFile = true;
+      _loader.load(request, context);
     }
 
     private function onInitImages() : void {
       _inited = true;
-      var bitmapContainer:Sprite = new Sprite();
+      var bitmapContainer : Sprite = new Sprite();
       addChild(bitmapContainer);
       var bmp1 : GenCanvas = new GenCanvas({width: 800, height: 600});
       bitmapContainer.addChild(bmp1);
       var bmp2 : GenCanvas = new GenCanvas({width: 800, height: 600});
       bitmapContainer.addChild(bmp2);
       
-      var textContainer:Sprite = new Sprite();
+      var textContainer : Sprite = new Sprite();
       addChild(textContainer);
       var textCanvas1 : TextCanvas = new TextCanvas();
       textContainer.addChild(textCanvas1);
@@ -190,9 +201,9 @@ package com.liksaite.generator {
         // flip teh canvas
         activeCanvas = activeCanvas.next;
       }
-      var generateTexts : Function = function(sprite:TextCanvas, callback:Function):void {
+      var generateTexts : Function = function(sprite : TextCanvas, callback : Function):void {
         if(_posts && _posts.length > 0) {
-          sprite.putText(_posts[Math.round(Math.random() * (_posts.length - 1))]["quote-text"]);
+          sprite.putText(_posts[Math.round(Math.random() * (_posts.length - 1))]["regular-body"]);
         }
         sprite.y = 800;
         sprite.alpha = .65 + (Math.random() * .35);
@@ -211,9 +222,12 @@ package com.liksaite.generator {
       setTimeout(generateText2, 10 * 1000);
       
       // toggle the masking
-      setInterval(function():void{
+      setInterval(function():void {
 //        bitmapContainer.mask = bitmapContainer.mask == textContainer ? null : textContainer;
-      }, 2 * 1000);      
+      }, 2 * 1000);
+      
+      // hide logo
+      TweenLite.to(_logo, 2, {alpha: 0});
       //click proxy
       var m : Sprite = new Sprite();
       addChild(m);
