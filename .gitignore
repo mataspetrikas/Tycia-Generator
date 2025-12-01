@@ -8,6 +8,8 @@ pnpm-debug.log*
 # Build outputs
 dist/
 build/
+!flash-app/build/
+!flash-app/build/**  # Keep legacy Flash build
 out/
 *.tsbuildinfo
 
