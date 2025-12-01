@@ -69,3 +69,4 @@ coverage/
 # Misc
 .vercel
 .turbo
+.claude/settings.local.json
