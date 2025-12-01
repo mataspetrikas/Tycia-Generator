@@ -31,26 +31,15 @@ The artwork explores themes of text, imagery, and their intersection in digital 
 ## Project Structure
 
 ```
-├── build/                 # Compiled output
-│   ├── generator.swf     # Main SWF file
-│   ├── index.html        # HTML wrapper
-│   └── images/           # Static assets (logo, etc.)
-├── config/               # Build configuration
-│   └── font-config.xml   # Font embedding config
+├── flash-app/            # Legacy Flash application
+│   ├── build/            # Compiled Flash output
+│   ├── config/           # Build configuration
+│   └── src/              # ActionScript 3.0 source code
 ├── images/               # Image assets from Flickr archive
 ├── scripts/              # Image management tools
 │   ├── generate-images-json.js  # List images with dimensions
 │   ├── classify-clip.js         # CLIP AI classification
 │   └── classify-images.js       # MobileNet classification
-├── src/                  # Source code
-│   ├── com/
-│   │   ├── adobe/        # Adobe utility libraries
-│   │   └── liksaite/
-│   │       └── generator/
-│   │           ├── GenCanvas.as    # Bitmap canvas for image mosaics
-│   │           ├── IngaGen.as      # Main application class
-│   │           └── TextCanvas.as   # Text display component
-│   └── gs/               # GreenSock animation library
 ├── images-data.json      # Generated image metadata with AI tags
 ├── text-data.json        # Text content from Tumblr
 ├── package.json          # Node.js dependencies and scripts
