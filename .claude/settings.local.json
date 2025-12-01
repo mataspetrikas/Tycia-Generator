@@ -5,7 +5,10 @@
       "Bash(node generate-images-json.js:*)",
       "Bash(npm run classify-images:*)",
       "Bash(npm run classify-clip:*)",
-      "Bash(npm run generate-images:*)"
+      "Bash(npm run generate-images:*)",
+      "Bash(node scripts/add-flickr-urls.js:*)",
+      "Bash(node -e:*)",
+      "Bash(node list-no-flickr.js:*)"
     ],
     "deny": [],
     "ask": []

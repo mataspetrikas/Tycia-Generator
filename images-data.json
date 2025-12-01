@@ -52,7 +52,8 @@
         "label": "people",
         "confidence": 7
       }
-    ]
+    ],
+    "flickr_url": "https://www.flickr.com/photos/11631579@N00/4005341209"
   },
   {
     "path": "images/4006097512_07f7f47a20_b.jpg",
@@ -163,7 +164,8 @@
         "label": "artwork",
         "confidence": 6
       }
-    ]
+    ],
+    "flickr_url": "https://www.flickr.com/photos/angina/4007762465"
   },
   {
     "path": "images/4008476141_080d984687_c.jpg",
@@ -246,7 +248,8 @@
         "label": "texts",
         "confidence": 10
       }
-    ]
+    ],
+    "flickr_url": "https://www.flickr.com/photos/angina/4008527480"
   },
   {
     "path": "images/4008527844_be2236f39c_z.jpg",
@@ -273,7 +276,8 @@
         "label": "artwork",
         "confidence": 9
       }
-    ]
+    ],
+    "flickr_url": "https://www.flickr.com/photos/angina/4008527844"
   },
   {
     "path": "images/4009242292_f89ebd4a30_c.jpg",
@@ -412,7 +416,8 @@
         "label": "texts",
         "confidence": 11
       }
-    ]
+    ],
+    "flickr_url": "https://www.flickr.com/photos/18637958@N08/4013342055"
   },
   {
     "path": "images/4013344289_e2143f4c6c_o.jpg",
@@ -439,7 +444,8 @@
         "label": "texts",
         "confidence": 6
       }
-    ]
+    ],
+    "flickr_url": "https://www.flickr.com/photos/18637958@N08/4013344289"
   },
   {
     "path": "images/4013691058_766104b7d8_c.jpg",
@@ -494,7 +500,8 @@
         "label": "people",
         "confidence": 11
       }
-    ]
+    ],
+    "flickr_url": "https://www.flickr.com/photos/18637958@N08/4014108902"
   },
   {
     "path": "images/4014109700_ed155aea11_o.jpg",
@@ -521,7 +528,8 @@
         "label": "exhibition",
         "confidence": 11
       }
-    ]
+    ],
+    "flickr_url": "https://www.flickr.com/photos/18637958@N08/4014109700"
   },
   {
     "path": "images/4014110058_22509e4127_o.jpg",
@@ -576,7 +584,8 @@
         "label": "people",
         "confidence": 8
       }
-    ]
+    ],
+    "flickr_url": "https://www.flickr.com/photos/18637958@N08/4015669143"
   },
   {
     "path": "images/4015670505_e307d07d66_o.jpg",
@@ -603,7 +612,8 @@
         "label": "exhibition",
         "confidence": 8
       }
-    ]
+    ],
+    "flickr_url": "https://www.flickr.com/photos/18637958@N08/4015670505"
   },
   {
     "path": "images/4015670993_5a68edeeee_o.jpg",
@@ -630,7 +640,8 @@
         "label": "texts",
         "confidence": 14
       }
-    ]
+    ],
+    "flickr_url": "https://www.flickr.com/photos/18637958@N08/4015670993"
   },
   {
     "path": "images/4015671899_694599aeb3_o.jpg",
@@ -657,7 +668,8 @@
         "label": "exhibition",
         "confidence": 4
       }
-    ]
+    ],
+    "flickr_url": "https://www.flickr.com/photos/18637958@N08/4015671899"
   },
   {
     "path": "images/4015672253_101b07eb34_o.jpg",
@@ -684,7 +696,8 @@
         "label": "texts",
         "confidence": 9
       }
-    ]
+    ],
+    "flickr_url": "https://www.flickr.com/photos/18637958@N08/4015672253"
   },
   {
     "path": "images/4016432028_492cc878d4_o.jpg",
@@ -711,7 +724,8 @@
         "label": "artwork",
         "confidence": 18
       }
-    ]
+    ],
+    "flickr_url": "https://www.flickr.com/photos/18637958@N08/4016432028"
   },
   {
     "path": "images/4016432442_d14b4aabd5_o.jpg",
@@ -738,7 +752,8 @@
         "label": "object",
         "confidence": 16
       }
-    ]
+    ],
+    "flickr_url": "https://www.flickr.com/photos/18637958@N08/4016432442"
   },
   {
     "path": "images/4016434116_f907730638_o.jpg",
@@ -765,7 +780,8 @@
         "label": "artwork",
         "confidence": 11
       }
-    ]
+    ],
+    "flickr_url": "https://www.flickr.com/photos/18637958@N08/4016434116"
   },
   {
     "path": "images/4024077552_7b4aa282a9_b.jpg",
@@ -1072,7 +1088,8 @@
         "label": "exhibition",
         "confidence": 7
       }
-    ]
+    ],
+    "flickr_url": "https://www.flickr.com/photos/18637958@N08/4026872871"
   },
   {
     "path": "images/4026873535_411e554f68_o.jpg",
@@ -1099,7 +1116,8 @@
         "label": "exhibition",
         "confidence": 8
       }
-    ]
+    ],
+    "flickr_url": "https://www.flickr.com/photos/18637958@N08/4026873535"
   },
   {
     "path": "images/4026878871_721a711388_o.jpg",
@@ -1126,7 +1144,8 @@
         "label": "exhibition",
         "confidence": 13
       }
-    ]
+    ],
+    "flickr_url": "https://www.flickr.com/photos/18637958@N08/4026878871"
   },
   {
     "path": "images/4071128999_1b29443efe_c.jpg",
@@ -1153,7 +1172,8 @@
         "label": "texts",
         "confidence": 10
       }
-    ]
+    ],
+    "flickr_url": "https://www.flickr.com/photos/11631579@N00/4071128999"
   },
   {
     "path": "images/4071129981_7740034c9a_c.jpg",
@@ -1180,7 +1200,8 @@
         "label": "object",
         "confidence": 5
       }
-    ]
+    ],
+    "flickr_url": "https://www.flickr.com/photos/11631579@N00/4071129981"
   },
   {
     "path": "images/4071130035_58c105693f_c.jpg",
@@ -1207,7 +1228,8 @@
         "label": "object",
         "confidence": 5
       }
-    ]
+    ],
+    "flickr_url": "https://www.flickr.com/photos/11631579@N00/4071130035"
   },
   {
     "path": "images/4071130361_4c4d38cdca_c.jpg",
@@ -1234,7 +1256,8 @@
         "label": "people",
         "confidence": 7
       }
-    ]
+    ],
+    "flickr_url": "https://www.flickr.com/photos/11631579@N00/4071130361"
   },
   {
     "path": "images/4071130777_c34d28e44c_c.jpg",
@@ -1261,7 +1284,8 @@
         "label": "texts",
         "confidence": 0
       }
-    ]
+    ],
+    "flickr_url": "https://www.flickr.com/photos/11631579@N00/4071130777"
   },
   {
     "path": "images/4071131047_107be030f3_c.jpg",
@@ -1288,7 +1312,8 @@
         "label": "texts",
         "confidence": 8
       }
-    ]
+    ],
+    "flickr_url": "https://www.flickr.com/photos/11631579@N00/4071131047"
   },
   {
     "path": "images/4071891612_bbdf296d8c_c.jpg",
@@ -1315,7 +1340,8 @@
         "label": "texts",
         "confidence": 7
       }
-    ]
+    ],
+    "flickr_url": "https://www.flickr.com/photos/11631579@N00/4071891612"
   },
   {
     "path": "images/4071891720_799e50d64e_c.jpg",
@@ -1342,7 +1368,8 @@
         "label": "people",
         "confidence": 6
       }
-    ]
+    ],
+    "flickr_url": "https://www.flickr.com/photos/11631579@N00/4071891720"
   },
   {
     "path": "images/4071891864_7c6c623d18_c.jpg",
@@ -1369,7 +1396,8 @@
         "label": "texts",
         "confidence": 7
       }
-    ]
+    ],
+    "flickr_url": "https://www.flickr.com/photos/11631579@N00/4071891864"
   },
   {
     "path": "images/4071892382_073ab8389c_c.jpg",
@@ -1396,7 +1424,8 @@
         "label": "people",
         "confidence": 13
       }
-    ]
+    ],
+    "flickr_url": "https://www.flickr.com/photos/11631579@N00/4071892382"
   },
   {
     "path": "images/4071892594_971a394848_c.jpg",
@@ -1423,6 +1452,7 @@
         "label": "people",
         "confidence": 15
       }
-    ]
+    ],
+    "flickr_url": "https://www.flickr.com/photos/11631579@N00/4071892594"
   }
 ]
