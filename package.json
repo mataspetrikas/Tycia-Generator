@@ -1,0 +1,12 @@
+{
+  "name": "tycia-generator",
+  "version": "1.0.0",
+  "description": "Tycia image generator",
+  "main": "generate-images-json.js",
+  "scripts": {
+    "generate-images": "node generate-images-json.js"
+  },
+  "dependencies": {
+    "image-size": "^1.0.0"
+  }
+}
