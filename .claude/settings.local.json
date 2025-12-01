@@ -3,7 +3,9 @@
     "allow": [
       "Bash(npm install:*)",
       "Bash(node generate-images-json.js:*)",
-      "Bash(npm run classify-images:*)"
+      "Bash(npm run classify-images:*)",
+      "Bash(npm run classify-clip:*)",
+      "Bash(npm run generate-images:*)"
     ],
     "deny": [],
     "ask": []

@@ -5,7 +5,7 @@ const mobilenet = require('@tensorflow-models/mobilenet');
 const jpeg = require('jpeg-js');
 
 // Load the images-data.json file
-const imagesDataPath = path.join(__dirname, 'images-data.json');
+const imagesDataPath = path.join(__dirname, '..', 'images-data.json');
 const imagesData = JSON.parse(fs.readFileSync(imagesDataPath, 'utf8'));
 
 // Function to load and decode image
@@ -27,7 +27,7 @@ async function classifyImages() {
   let processedCount = 0;
 
   for (const imageData of imagesData) {
-    const imagePath = path.join(__dirname, imageData.path);
+    const imagePath = path.join(__dirname, '..', imageData.path);
 
     try {
       console.log(`Classifying ${imageData.path}...`);

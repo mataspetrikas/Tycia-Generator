@@ -37,6 +37,11 @@ The artwork explores themes of text, imagery, and their intersection in digital 
 │   └── images/           # Static assets (logo, etc.)
 ├── config/               # Build configuration
 │   └── font-config.xml   # Font embedding config
+├── images/               # Image assets from Flickr archive
+├── scripts/              # Image management tools
+│   ├── generate-images-json.js  # List images with dimensions
+│   ├── classify-clip.js         # CLIP AI classification
+│   └── classify-images.js       # MobileNet classification
 ├── src/                  # Source code
 │   ├── com/
 │   │   ├── adobe/        # Adobe utility libraries
@@ -46,7 +51,106 @@ The artwork explores themes of text, imagery, and their intersection in digital 
 │   │           ├── IngaGen.as      # Main application class
 │   │           └── TextCanvas.as   # Text display component
 │   └── gs/               # GreenSock animation library
+├── images-data.json      # Generated image metadata with AI tags
+├── text-data.json        # Text content from Tumblr
+├── package.json          # Node.js dependencies and scripts
 └── README.md             # This file
+```
+
+## Image Management & Classification
+
+This project includes tools to manage and classify images using AI. The images are stored in the `images/` folder and metadata is maintained in `images-data.json`.
+
+### Initial Setup
+
+Install dependencies:
+```bash
+npm install
+```
+
+### Listing Images
+
+Generate or update the image metadata JSON file:
+
+```bash
+npm run generate-images
+```
+
+This command is **non-destructive**:
+- Adds new images found in the `images/` folder
+- Keeps existing images and their tags
+- Removes entries for deleted image files
+- Updates dimensions if an image file was replaced
+
+To completely regenerate the file (removing all existing tags):
+```bash
+npm run generate-images:replace
+```
+
+### Classifying Images
+
+Classify images into semantic categories using CLIP AI model:
+
+```bash
+npm run classify-clip
+```
+
+This adds tags to each image in 5 categories:
+- **people** - Images with people
+- **artwork** - Artistic content
+- **exhibition** - Exhibition/gallery photos
+- **texts** - Images with visible text
+- **object** - Objects and things
+
+Each category gets a confidence score (0-100%).
+
+**Note**: First run downloads the CLIP model (~350MB). Subsequent runs are faster.
+
+### Combined Workflow
+
+To add new images and classify them in one command:
+
+```bash
+npm run update
+```
+
+This runs `generate-images` (non-destructive) followed by `classify-clip`.
+
+### Alternative: MobileNet Classification
+
+For more specific object classification (1000+ categories like "laptop", "car", etc.):
+
+```bash
+npm run classify-images
+```
+
+**Recommendation**: Use `classify-clip` for semantic categorization.
+
+### Using the Data
+
+Load `images-data.json` in your web application:
+
+```javascript
+// Fetch image data
+const images = await fetch('images-data.json').then(r => r.json());
+
+// Filter by category
+const exhibitions = images.filter(img =>
+  img.tags[0].label === 'exhibition'
+);
+
+// Find high-confidence matches
+const peopleImages = images.filter(img =>
+  img.tags.some(tag => tag.label === 'people' && tag.confidence > 50)
+);
+
+// Access image properties
+images.forEach(img => {
+  console.log(img.path);       // "images/photo.jpg"
+  console.log(img.width);      // 1024
+  console.log(img.height);     // 768
+  console.log(img.tags);       // [{label: "exhibition", confidence: 96}, ...]
+});
 ```
 
 ## Building

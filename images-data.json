@@ -5,16 +5,24 @@
     "height": 682,
     "tags": [
       {
-        "label": "file, file cabinet, filing cabinet",
-        "confidence": 13
+        "label": "people",
+        "confidence": 23
       },
       {
-        "label": "bannister, banister, balustrade, balusters, handrail",
-        "confidence": 10
+        "label": "artwork",
+        "confidence": 22
       },
       {
-        "label": "window shade",
-        "confidence": 9
+        "label": "object",
+        "confidence": 22
+      },
+      {
+        "label": "texts",
+        "confidence": 21
+      },
+      {
+        "label": "exhibition",
+        "confidence": 12
       }
     ]
   },
@@ -24,16 +32,24 @@
     "height": 765,
     "tags": [
       {
-        "label": "projector",
-        "confidence": 23
+        "label": "exhibition",
+        "confidence": 42
       },
       {
-        "label": "television, television system",
-        "confidence": 22
+        "label": "artwork",
+        "confidence": 28
       },
       {
-        "label": "monitor",
-        "confidence": 18
+        "label": "texts",
+        "confidence": 14
+      },
+      {
+        "label": "object",
+        "confidence": 9
+      },
+      {
+        "label": "people",
+        "confidence": 7
       }
     ]
   },
@@ -43,16 +59,24 @@
     "height": 682,
     "tags": [
       {
-        "label": "vacuum, vacuum cleaner",
-        "confidence": 30
+        "label": "exhibition",
+        "confidence": 34
       },
       {
-        "label": "Boston bull, Boston terrier",
-        "confidence": 8
+        "label": "object",
+        "confidence": 28
       },
       {
-        "label": "Italian greyhound",
-        "confidence": 6
+        "label": "people",
+        "confidence": 19
+      },
+      {
+        "label": "artwork",
+        "confidence": 14
+      },
+      {
+        "label": "texts",
+        "confidence": 5
       }
     ]
   },
@@ -62,16 +86,24 @@
     "height": 426,
     "tags": [
       {
-        "label": "desk",
-        "confidence": 9
+        "label": "object",
+        "confidence": 30
       },
       {
-        "label": "photocopier",
-        "confidence": 6
+        "label": "exhibition",
+        "confidence": 22
       },
       {
-        "label": "grand piano, grand",
-        "confidence": 5
+        "label": "people",
+        "confidence": 20
+      },
+      {
+        "label": "artwork",
+        "confidence": 17
+      },
+      {
+        "label": "texts",
+        "confidence": 11
       }
     ]
   },
@@ -81,16 +113,24 @@
     "height": 426,
     "tags": [
       {
-        "label": "television, television system",
-        "confidence": 91
+        "label": "artwork",
+        "confidence": 24
       },
       {
-        "label": "home theater, home theatre",
-        "confidence": 4
+        "label": "object",
+        "confidence": 21
       },
       {
-        "label": "screen, CRT screen",
-        "confidence": 3
+        "label": "exhibition",
+        "confidence": 21
+      },
+      {
+        "label": "people",
+        "confidence": 17
+      },
+      {
+        "label": "texts",
+        "confidence": 17
       }
     ]
   },
@@ -100,16 +140,24 @@
     "height": 426,
     "tags": [
       {
-        "label": "turnstile",
-        "confidence": 67
+        "label": "people",
+        "confidence": 37
       },
       {
-        "label": "sliding door",
-        "confidence": 18
+        "label": "exhibition",
+        "confidence": 20
       },
       {
-        "label": "prison, prison house",
-        "confidence": 7
+        "label": "object",
+        "confidence": 20
+      },
+      {
+        "label": "texts",
+        "confidence": 17
+      },
+      {
+        "label": "artwork",
+        "confidence": 6
       }
     ]
   },
@@ -119,16 +167,24 @@
     "height": 533,
     "tags": [
       {
-        "label": "rubber eraser, rubber, pencil eraser",
-        "confidence": 28
+        "label": "texts",
+        "confidence": 30
       },
       {
-        "label": "ballpoint, ballpoint pen, ballpen, Biro",
-        "confidence": 12
+        "label": "artwork",
+        "confidence": 30
       },
       {
-        "label": "fountain pen",
-        "confidence": 6
+        "label": "object",
+        "confidence": 18
+      },
+      {
+        "label": "people",
+        "confidence": 15
+      },
+      {
+        "label": "exhibition",
+        "confidence": 7
       }
     ]
   },
@@ -138,16 +194,24 @@
     "height": 426,
     "tags": [
       {
-        "label": "gas pump, gasoline pump, petrol pump, island dispenser",
-        "confidence": 22
+        "label": "object",
+        "confidence": 32
       },
       {
-        "label": "sax, saxophone",
-        "confidence": 20
+        "label": "people",
+        "confidence": 25
       },
       {
-        "label": "cellular telephone, cellular phone, cellphone, cell, mobile phone",
-        "confidence": 11
+        "label": "artwork",
+        "confidence": 21
+      },
+      {
+        "label": "exhibition",
+        "confidence": 13
+      },
+      {
+        "label": "texts",
+        "confidence": 9
       }
     ]
   },
@@ -157,16 +221,24 @@
     "height": 426,
     "tags": [
       {
-        "label": "power drill",
-        "confidence": 14
+        "label": "people",
+        "confidence": 32
       },
       {
-        "label": "laptop, laptop computer",
-        "confidence": 11
+        "label": "artwork",
+        "confidence": 23
       },
       {
-        "label": "sewing machine",
-        "confidence": 9
+        "label": "object",
+        "confidence": 19
+      },
+      {
+        "label": "exhibition",
+        "confidence": 16
+      },
+      {
+        "label": "texts",
+        "confidence": 10
       }
     ]
   },
@@ -176,16 +248,24 @@
     "height": 426,
     "tags": [
       {
-        "label": "restaurant, eating house, eating place, eatery",
-        "confidence": 35
+        "label": "people",
+        "confidence": 51
       },
       {
-        "label": "library",
+        "label": "exhibition",
+        "confidence": 16
+      },
+      {
+        "label": "object",
+        "confidence": 14
+      },
+      {
+        "label": "texts",
+        "confidence": 11
+      },
+      {
+        "label": "artwork",
         "confidence": 9
-      },
-      {
-        "label": "candle, taper, wax light",
-        "confidence": 7
       }
     ]
   },
@@ -195,16 +275,24 @@
     "height": 533,
     "tags": [
       {
-        "label": "piggy bank, penny bank",
-        "confidence": 17
+        "label": "artwork",
+        "confidence": 28
       },
       {
-        "label": "ping-pong ball",
+        "label": "object",
+        "confidence": 26
+      },
+      {
+        "label": "people",
+        "confidence": 23
+      },
+      {
+        "label": "texts",
+        "confidence": 14
+      },
+      {
+        "label": "exhibition",
         "confidence": 9
-      },
-      {
-        "label": "bobsled, bobsleigh, bob",
-        "confidence": 7
       }
     ]
   },
@@ -214,16 +302,24 @@
     "height": 533,
     "tags": [
       {
-        "label": "quill, quill pen",
+        "label": "exhibition",
+        "confidence": 30
+      },
+      {
+        "label": "people",
+        "confidence": 24
+      },
+      {
+        "label": "artwork",
         "confidence": 22
       },
       {
-        "label": "carton",
-        "confidence": 11
+        "label": "object",
+        "confidence": 12
       },
       {
-        "label": "envelope",
-        "confidence": 9
+        "label": "texts",
+        "confidence": 12
       }
     ]
   },
@@ -233,16 +329,24 @@
     "height": 533,
     "tags": [
       {
-        "label": "sewing machine",
-        "confidence": 36
+        "label": "exhibition",
+        "confidence": 29
       },
       {
-        "label": "quill, quill pen",
-        "confidence": 5
+        "label": "object",
+        "confidence": 26
       },
       {
-        "label": "plane, carpenter's plane, woodworking plane",
-        "confidence": 5
+        "label": "people",
+        "confidence": 24
+      },
+      {
+        "label": "artwork",
+        "confidence": 14
+      },
+      {
+        "label": "texts",
+        "confidence": 7
       }
     ]
   },
@@ -252,16 +356,24 @@
     "height": 533,
     "tags": [
       {
-        "label": "jean, blue jean, denim",
-        "confidence": 43
+        "label": "object",
+        "confidence": 35
       },
       {
-        "label": "comic book",
-        "confidence": 5
+        "label": "artwork",
+        "confidence": 23
       },
       {
-        "label": "sweatshirt",
-        "confidence": 4
+        "label": "people",
+        "confidence": 20
+      },
+      {
+        "label": "texts",
+        "confidence": 13
+      },
+      {
+        "label": "exhibition",
+        "confidence": 9
       }
     ]
   },
@@ -271,16 +383,24 @@
     "height": 2410,
     "tags": [
       {
-        "label": "fountain",
-        "confidence": 24
+        "label": "people",
+        "confidence": 30
       },
       {
-        "label": "restaurant, eating house, eating place, eatery",
-        "confidence": 8
+        "label": "exhibition",
+        "confidence": 26
       },
       {
-        "label": "library",
-        "confidence": 8
+        "label": "object",
+        "confidence": 19
+      },
+      {
+        "label": "artwork",
+        "confidence": 15
+      },
+      {
+        "label": "texts",
+        "confidence": 11
       }
     ]
   },
@@ -290,16 +410,24 @@
     "height": 1860,
     "tags": [
       {
-        "label": "jinrikisha, ricksha, rickshaw",
-        "confidence": 9
+        "label": "people",
+        "confidence": 40
       },
       {
-        "label": "wool, woolen, woollen",
-        "confidence": 5
+        "label": "artwork",
+        "confidence": 29
       },
       {
-        "label": "tricycle, trike, velocipede",
-        "confidence": 5
+        "label": "exhibition",
+        "confidence": 14
+      },
+      {
+        "label": "object",
+        "confidence": 10
+      },
+      {
+        "label": "texts",
+        "confidence": 6
       }
     ]
   },
@@ -309,16 +437,24 @@
     "height": 533,
     "tags": [
       {
-        "label": "chain mail, ring mail, mail, chain armor, chain armour, ring armor, ring armour",
-        "confidence": 63
+        "label": "people",
+        "confidence": 35
       },
       {
-        "label": "butcher shop, meat market",
-        "confidence": 3
+        "label": "exhibition",
+        "confidence": 32
       },
       {
-        "label": "grocery store, grocery, food market, market",
-        "confidence": 2
+        "label": "object",
+        "confidence": 14
+      },
+      {
+        "label": "artwork",
+        "confidence": 10
+      },
+      {
+        "label": "texts",
+        "confidence": 9
       }
     ]
   },
@@ -328,16 +464,24 @@
     "height": 2448,
     "tags": [
       {
-        "label": "radiator",
-        "confidence": 92
+        "label": "artwork",
+        "confidence": 33
       },
       {
-        "label": "trilobite",
-        "confidence": 7
+        "label": "object",
+        "confidence": 25
       },
       {
-        "label": "nail",
-        "confidence": 0
+        "label": "texts",
+        "confidence": 18
+      },
+      {
+        "label": "exhibition",
+        "confidence": 15
+      },
+      {
+        "label": "people",
+        "confidence": 11
       }
     ]
   },
@@ -347,16 +491,24 @@
     "height": 2448,
     "tags": [
       {
-        "label": "laptop, laptop computer",
-        "confidence": 86
+        "label": "people",
+        "confidence": 26
       },
       {
-        "label": "notebook, notebook computer",
-        "confidence": 8
+        "label": "object",
+        "confidence": 25
       },
       {
-        "label": "Polaroid camera, Polaroid Land camera",
-        "confidence": 1
+        "label": "artwork",
+        "confidence": 22
+      },
+      {
+        "label": "texts",
+        "confidence": 16
+      },
+      {
+        "label": "exhibition",
+        "confidence": 11
       }
     ]
   },
@@ -366,16 +518,24 @@
     "height": 2448,
     "tags": [
       {
-        "label": "restaurant, eating house, eating place, eatery",
-        "confidence": 28
+        "label": "exhibition",
+        "confidence": 32
       },
       {
-        "label": "guillotine",
-        "confidence": 15
+        "label": "people",
+        "confidence": 24
       },
       {
-        "label": "bookshop, bookstore, bookstall",
-        "confidence": 12
+        "label": "artwork",
+        "confidence": 21
+      },
+      {
+        "label": "texts",
+        "confidence": 14
+      },
+      {
+        "label": "object",
+        "confidence": 9
       }
     ]
   },
@@ -385,16 +545,24 @@
     "height": 2381,
     "tags": [
       {
-        "label": "pole",
-        "confidence": 6
+        "label": "artwork",
+        "confidence": 50
       },
       {
-        "label": "nail",
-        "confidence": 4
+        "label": "object",
+        "confidence": 18
       },
       {
-        "label": "spider web, spider's web",
-        "confidence": 3
+        "label": "texts",
+        "confidence": 12
+      },
+      {
+        "label": "exhibition",
+        "confidence": 12
+      },
+      {
+        "label": "people",
+        "confidence": 8
       }
     ]
   },
@@ -404,16 +572,24 @@
     "height": 2448,
     "tags": [
       {
-        "label": "digital clock",
+        "label": "object",
         "confidence": 31
       },
       {
-        "label": "book jacket, dust cover, dust jacket, dust wrapper",
-        "confidence": 16
+        "label": "texts",
+        "confidence": 26
       },
       {
-        "label": "laptop, laptop computer",
-        "confidence": 4
+        "label": "people",
+        "confidence": 18
+      },
+      {
+        "label": "artwork",
+        "confidence": 18
+      },
+      {
+        "label": "exhibition",
+        "confidence": 8
       }
     ]
   },
@@ -423,16 +599,24 @@
     "height": 2448,
     "tags": [
       {
-        "label": "theater curtain, theatre curtain",
-        "confidence": 29
+        "label": "artwork",
+        "confidence": 36
       },
       {
-        "label": "wallet, billfold, notecase, pocketbook",
-        "confidence": 13
+        "label": "exhibition",
+        "confidence": 18
       },
       {
-        "label": "digital clock",
-        "confidence": 11
+        "label": "object",
+        "confidence": 17
+      },
+      {
+        "label": "people",
+        "confidence": 15
+      },
+      {
+        "label": "texts",
+        "confidence": 14
       }
     ]
   },
@@ -442,16 +626,24 @@
     "height": 2336,
     "tags": [
       {
-        "label": "scoreboard",
-        "confidence": 54
+        "label": "texts",
+        "confidence": 68
       },
       {
-        "label": "menu",
-        "confidence": 17
+        "label": "object",
+        "confidence": 11
       },
       {
-        "label": "screen, CRT screen",
-        "confidence": 14
+        "label": "people",
+        "confidence": 10
+      },
+      {
+        "label": "artwork",
+        "confidence": 7
+      },
+      {
+        "label": "exhibition",
+        "confidence": 4
       }
     ]
   },
@@ -461,16 +653,24 @@
     "height": 2448,
     "tags": [
       {
-        "label": "bannister, banister, balustrade, balusters, handrail",
-        "confidence": 73
+        "label": "exhibition",
+        "confidence": 31
       },
       {
-        "label": "theater curtain, theatre curtain",
-        "confidence": 5
+        "label": "artwork",
+        "confidence": 30
       },
       {
-        "label": "church, church building",
-        "confidence": 3
+        "label": "object",
+        "confidence": 18
+      },
+      {
+        "label": "people",
+        "confidence": 11
+      },
+      {
+        "label": "texts",
+        "confidence": 9
       }
     ]
   },
@@ -480,16 +680,24 @@
     "height": 2448,
     "tags": [
       {
-        "label": "envelope",
-        "confidence": 67
+        "label": "object",
+        "confidence": 23
       },
       {
-        "label": "rubber eraser, rubber, pencil eraser",
-        "confidence": 14
+        "label": "exhibition",
+        "confidence": 21
       },
       {
-        "label": "toilet tissue, toilet paper, bathroom tissue",
-        "confidence": 2
+        "label": "people",
+        "confidence": 19
+      },
+      {
+        "label": "texts",
+        "confidence": 19
+      },
+      {
+        "label": "artwork",
+        "confidence": 18
       }
     ]
   },
@@ -499,16 +707,24 @@
     "height": 2908,
     "tags": [
       {
-        "label": "sandbar, sand bar",
-        "confidence": 9
+        "label": "artwork",
+        "confidence": 26
       },
       {
-        "label": "stingray",
-        "confidence": 7
+        "label": "texts",
+        "confidence": 24
       },
       {
-        "label": "sea lion",
-        "confidence": 7
+        "label": "people",
+        "confidence": 17
+      },
+      {
+        "label": "exhibition",
+        "confidence": 16
+      },
+      {
+        "label": "object",
+        "confidence": 16
       }
     ]
   },
@@ -518,16 +734,24 @@
     "height": 2448,
     "tags": [
       {
-        "label": "jersey, T-shirt, tee shirt",
-        "confidence": 31
+        "label": "texts",
+        "confidence": 35
       },
       {
-        "label": "monitor",
+        "label": "object",
+        "confidence": 28
+      },
+      {
+        "label": "exhibition",
         "confidence": 14
       },
       {
-        "label": "scoreboard",
-        "confidence": 9
+        "label": "people",
+        "confidence": 12
+      },
+      {
+        "label": "artwork",
+        "confidence": 11
       }
     ]
   },
@@ -537,16 +761,24 @@
     "height": 683,
     "tags": [
       {
-        "label": "bannister, banister, balustrade, balusters, handrail",
-        "confidence": 100
+        "label": "exhibition",
+        "confidence": 26
       },
       {
-        "label": "radiator",
-        "confidence": 0
+        "label": "people",
+        "confidence": 22
       },
       {
-        "label": "window shade",
-        "confidence": 0
+        "label": "object",
+        "confidence": 20
+      },
+      {
+        "label": "artwork",
+        "confidence": 17
+      },
+      {
+        "label": "texts",
+        "confidence": 15
       }
     ]
   },
@@ -556,16 +788,24 @@
     "height": 650,
     "tags": [
       {
-        "label": "harmonica, mouth organ, harp, mouth harp",
-        "confidence": 40
+        "label": "people",
+        "confidence": 32
       },
       {
-        "label": "cellular telephone, cellular phone, cellphone, cell, mobile phone",
-        "confidence": 22
+        "label": "object",
+        "confidence": 27
       },
       {
-        "label": "laptop, laptop computer",
-        "confidence": 6
+        "label": "texts",
+        "confidence": 16
+      },
+      {
+        "label": "artwork",
+        "confidence": 13
+      },
+      {
+        "label": "exhibition",
+        "confidence": 11
       }
     ]
   },
@@ -575,16 +815,24 @@
     "height": 650,
     "tags": [
       {
-        "label": "restaurant, eating house, eating place, eatery",
-        "confidence": 11
+        "label": "exhibition",
+        "confidence": 45
       },
       {
-        "label": "barbershop",
-        "confidence": 11
+        "label": "people",
+        "confidence": 39
       },
       {
-        "label": "bookshop, bookstore, bookstall",
-        "confidence": 10
+        "label": "artwork",
+        "confidence": 7
+      },
+      {
+        "label": "object",
+        "confidence": 6
+      },
+      {
+        "label": "texts",
+        "confidence": 4
       }
     ]
   },
@@ -594,16 +842,24 @@
     "height": 650,
     "tags": [
       {
-        "label": "Leonberg",
-        "confidence": 48
+        "label": "people",
+        "confidence": 28
       },
       {
-        "label": "Irish wolfhound",
-        "confidence": 6
+        "label": "exhibition",
+        "confidence": 27
       },
       {
-        "label": "briard",
-        "confidence": 3
+        "label": "object",
+        "confidence": 25
+      },
+      {
+        "label": "artwork",
+        "confidence": 13
+      },
+      {
+        "label": "texts",
+        "confidence": 7
       }
     ]
   },
@@ -613,16 +869,24 @@
     "height": 650,
     "tags": [
       {
-        "label": "shoe shop, shoe-shop, shoe store",
+        "label": "people",
+        "confidence": 73
+      },
+      {
+        "label": "exhibition",
         "confidence": 11
       },
       {
-        "label": "butcher shop, meat market",
-        "confidence": 5
+        "label": "object",
+        "confidence": 6
       },
       {
-        "label": "miniskirt, mini",
-        "confidence": 5
+        "label": "texts",
+        "confidence": 6
+      },
+      {
+        "label": "artwork",
+        "confidence": 4
       }
     ]
   },
@@ -632,15 +896,23 @@
     "height": 639,
     "tags": [
       {
-        "label": "notebook, notebook computer",
-        "confidence": 13
+        "label": "people",
+        "confidence": 35
       },
       {
-        "label": "park bench",
-        "confidence": 6
+        "label": "object",
+        "confidence": 24
       },
       {
-        "label": "studio couch, day bed",
+        "label": "exhibition",
+        "confidence": 22
+      },
+      {
+        "label": "artwork",
+        "confidence": 15
+      },
+      {
+        "label": "texts",
         "confidence": 4
       }
     ]
@@ -651,15 +923,23 @@
     "height": 639,
     "tags": [
       {
-        "label": "jean, blue jean, denim",
-        "confidence": 9
+        "label": "object",
+        "confidence": 31
       },
       {
-        "label": "shoe shop, shoe-shop, shoe store",
-        "confidence": 5
+        "label": "exhibition",
+        "confidence": 23
       },
       {
-        "label": "clog, geta, patten, sabot",
+        "label": "people",
+        "confidence": 22
+      },
+      {
+        "label": "artwork",
+        "confidence": 18
+      },
+      {
+        "label": "texts",
         "confidence": 5
       }
     ]
@@ -670,16 +950,24 @@
     "height": 650,
     "tags": [
       {
-        "label": "laptop, laptop computer",
-        "confidence": 62
+        "label": "people",
+        "confidence": 39
       },
       {
-        "label": "notebook, notebook computer",
-        "confidence": 9
+        "label": "texts",
+        "confidence": 19
       },
       {
-        "label": "projector",
-        "confidence": 3
+        "label": "object",
+        "confidence": 16
+      },
+      {
+        "label": "exhibition",
+        "confidence": 15
+      },
+      {
+        "label": "artwork",
+        "confidence": 11
       }
     ]
   },
@@ -689,16 +977,24 @@
     "height": 650,
     "tags": [
       {
-        "label": "projector",
-        "confidence": 44
+        "label": "object",
+        "confidence": 28
       },
       {
-        "label": "printer",
+        "label": "exhibition",
+        "confidence": 26
+      },
+      {
+        "label": "people",
+        "confidence": 25
+      },
+      {
+        "label": "artwork",
         "confidence": 16
       },
       {
-        "label": "lab coat, laboratory coat",
-        "confidence": 7
+        "label": "texts",
+        "confidence": 5
       }
     ]
   },
@@ -708,16 +1004,24 @@
     "height": 650,
     "tags": [
       {
-        "label": "barber chair",
-        "confidence": 5
+        "label": "people",
+        "confidence": 40
       },
       {
-        "label": "tobacco shop, tobacconist shop, tobacconist",
-        "confidence": 4
+        "label": "artwork",
+        "confidence": 20
       },
       {
-        "label": "bow tie, bow-tie, bowtie",
-        "confidence": 4
+        "label": "object",
+        "confidence": 16
+      },
+      {
+        "label": "exhibition",
+        "confidence": 14
+      },
+      {
+        "label": "texts",
+        "confidence": 10
       }
     ]
   },
@@ -727,15 +1031,23 @@
     "height": 768,
     "tags": [
       {
-        "label": "fire screen, fireguard",
-        "confidence": 18
+        "label": "object",
+        "confidence": 35
       },
       {
-        "label": "pillow",
-        "confidence": 8
+        "label": "artwork",
+        "confidence": 33
       },
       {
-        "label": "vase",
+        "label": "texts",
+        "confidence": 16
+      },
+      {
+        "label": "people",
+        "confidence": 9
+      },
+      {
+        "label": "exhibition",
         "confidence": 7
       }
     ]
@@ -746,16 +1058,24 @@
     "height": 768,
     "tags": [
       {
-        "label": "book jacket, dust cover, dust jacket, dust wrapper",
-        "confidence": 66
+        "label": "texts",
+        "confidence": 44
       },
       {
-        "label": "menu",
-        "confidence": 7
+        "label": "people",
+        "confidence": 18
       },
       {
-        "label": "barbershop",
-        "confidence": 3
+        "label": "object",
+        "confidence": 16
+      },
+      {
+        "label": "artwork",
+        "confidence": 13
+      },
+      {
+        "label": "exhibition",
+        "confidence": 8
       }
     ]
   },
@@ -765,16 +1085,24 @@
     "height": 768,
     "tags": [
       {
-        "label": "menu",
-        "confidence": 85
+        "label": "texts",
+        "confidence": 36
       },
       {
-        "label": "book jacket, dust cover, dust jacket, dust wrapper",
+        "label": "artwork",
+        "confidence": 20
+      },
+      {
+        "label": "object",
+        "confidence": 18
+      },
+      {
+        "label": "people",
         "confidence": 13
       },
       {
-        "label": "packet",
-        "confidence": 0
+        "label": "exhibition",
+        "confidence": 13
       }
     ]
   },
@@ -784,16 +1112,24 @@
     "height": 600,
     "tags": [
       {
-        "label": "bow tie, bow-tie, bowtie",
+        "label": "people",
         "confidence": 30
       },
       {
-        "label": "groom, bridegroom",
-        "confidence": 21
+        "label": "exhibition",
+        "confidence": 25
       },
       {
-        "label": "military uniform",
-        "confidence": 8
+        "label": "object",
+        "confidence": 19
+      },
+      {
+        "label": "artwork",
+        "confidence": 15
+      },
+      {
+        "label": "texts",
+        "confidence": 10
       }
     ]
   },
@@ -803,16 +1139,24 @@
     "height": 600,
     "tags": [
       {
-        "label": "crossword puzzle, crossword",
-        "confidence": 60
+        "label": "exhibition",
+        "confidence": 70
       },
       {
-        "label": "carton",
-        "confidence": 18
+        "label": "artwork",
+        "confidence": 11
       },
       {
-        "label": "binder, ring-binder",
-        "confidence": 4
+        "label": "people",
+        "confidence": 8
+      },
+      {
+        "label": "texts",
+        "confidence": 6
+      },
+      {
+        "label": "object",
+        "confidence": 5
       }
     ]
   },
@@ -822,16 +1166,24 @@
     "height": 800,
     "tags": [
       {
-        "label": "binder, ring-binder",
-        "confidence": 33
+        "label": "exhibition",
+        "confidence": 67
       },
       {
-        "label": "crossword puzzle, crossword",
-        "confidence": 23
+        "label": "artwork",
+        "confidence": 13
       },
       {
-        "label": "menu",
-        "confidence": 9
+        "label": "texts",
+        "confidence": 8
+      },
+      {
+        "label": "people",
+        "confidence": 7
+      },
+      {
+        "label": "object",
+        "confidence": 5
       }
     ]
   },
@@ -841,15 +1193,23 @@
     "height": 641,
     "tags": [
       {
-        "label": "wine bottle",
-        "confidence": 19
+        "label": "exhibition",
+        "confidence": 47
       },
       {
-        "label": "menu",
-        "confidence": 13
+        "label": "artwork",
+        "confidence": 26
       },
       {
-        "label": "lotion",
+        "label": "object",
+        "confidence": 11
+      },
+      {
+        "label": "texts",
+        "confidence": 8
+      },
+      {
+        "label": "people",
         "confidence": 7
       }
     ]
@@ -860,16 +1220,24 @@
     "height": 641,
     "tags": [
       {
-        "label": "quilt, comforter, comfort, puff",
-        "confidence": 16
+        "label": "exhibition",
+        "confidence": 96
       },
       {
-        "label": "stage",
-        "confidence": 8
+        "label": "artwork",
+        "confidence": 2
       },
       {
-        "label": "prayer rug, prayer mat",
-        "confidence": 6
+        "label": "people",
+        "confidence": 1
+      },
+      {
+        "label": "object",
+        "confidence": 1
+      },
+      {
+        "label": "texts",
+        "confidence": 0
       }
     ]
   },
@@ -879,15 +1247,23 @@
     "height": 550,
     "tags": [
       {
-        "label": "pay-phone, pay-station",
-        "confidence": 41
+        "label": "exhibition",
+        "confidence": 47
       },
       {
-        "label": "carton",
+        "label": "artwork",
+        "confidence": 23
+      },
+      {
+        "label": "object",
         "confidence": 13
       },
       {
-        "label": "vacuum, vacuum cleaner",
+        "label": "people",
+        "confidence": 9
+      },
+      {
+        "label": "texts",
         "confidence": 8
       }
     ]
@@ -898,16 +1274,24 @@
     "height": 600,
     "tags": [
       {
-        "label": "menu",
-        "confidence": 56
+        "label": "exhibition",
+        "confidence": 67
       },
       {
-        "label": "binder, ring-binder",
-        "confidence": 14
+        "label": "people",
+        "confidence": 9
       },
       {
-        "label": "refrigerator, icebox",
+        "label": "artwork",
+        "confidence": 9
+      },
+      {
+        "label": "object",
         "confidence": 8
+      },
+      {
+        "label": "texts",
+        "confidence": 7
       }
     ]
   },
@@ -917,16 +1301,24 @@
     "height": 600,
     "tags": [
       {
-        "label": "pay-phone, pay-station",
-        "confidence": 14
+        "label": "exhibition",
+        "confidence": 61
       },
       {
-        "label": "dial telephone, dial phone",
-        "confidence": 12
+        "label": "artwork",
+        "confidence": 15
       },
       {
-        "label": "vacuum, vacuum cleaner",
-        "confidence": 11
+        "label": "object",
+        "confidence": 13
+      },
+      {
+        "label": "texts",
+        "confidence": 6
+      },
+      {
+        "label": "people",
+        "confidence": 6
       }
     ]
   },
@@ -936,16 +1328,24 @@
     "height": 642,
     "tags": [
       {
-        "label": "book jacket, dust cover, dust jacket, dust wrapper",
-        "confidence": 44
+        "label": "exhibition",
+        "confidence": 67
       },
       {
-        "label": "binder, ring-binder",
-        "confidence": 19
-      },
-      {
-        "label": "menu",
+        "label": "people",
         "confidence": 10
+      },
+      {
+        "label": "object",
+        "confidence": 9
+      },
+      {
+        "label": "artwork",
+        "confidence": 8
+      },
+      {
+        "label": "texts",
+        "confidence": 7
       }
     ]
   },
@@ -955,16 +1355,24 @@
     "height": 600,
     "tags": [
       {
-        "label": "vending machine",
-        "confidence": 20
+        "label": "exhibition",
+        "confidence": 30
       },
       {
-        "label": "sewing machine",
-        "confidence": 12
+        "label": "object",
+        "confidence": 22
       },
       {
-        "label": "carton",
-        "confidence": 12
+        "label": "artwork",
+        "confidence": 19
+      },
+      {
+        "label": "texts",
+        "confidence": 17
+      },
+      {
+        "label": "people",
+        "confidence": 13
       }
     ]
   },
@@ -974,16 +1382,24 @@
     "height": 589,
     "tags": [
       {
-        "label": "monitor",
-        "confidence": 66
+        "label": "object",
+        "confidence": 24
       },
       {
-        "label": "screen, CRT screen",
-        "confidence": 31
+        "label": "texts",
+        "confidence": 23
       },
       {
-        "label": "television, television system",
-        "confidence": 1
+        "label": "exhibition",
+        "confidence": 21
+      },
+      {
+        "label": "artwork",
+        "confidence": 16
+      },
+      {
+        "label": "people",
+        "confidence": 15
       }
     ]
   }
