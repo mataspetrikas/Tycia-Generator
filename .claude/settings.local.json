@@ -2,7 +2,8 @@
   "permissions": {
     "allow": [
       "Bash(npm install:*)",
-      "Bash(node generate-images-json.js:*)"
+      "Bash(node generate-images-json.js:*)",
+      "Bash(npm run classify-images:*)"
     ],
     "deny": [],
     "ask": []

@@ -2,261 +2,989 @@
   {
     "path": "images/4005332825_16a1d14570_b.jpg",
     "width": 1024,
-    "height": 682
+    "height": 682,
+    "tags": [
+      {
+        "label": "file, file cabinet, filing cabinet",
+        "confidence": 13
+      },
+      {
+        "label": "bannister, banister, balustrade, balusters, handrail",
+        "confidence": 10
+      },
+      {
+        "label": "window shade",
+        "confidence": 9
+      }
+    ]
   },
   {
     "path": "images/4005341209_37290184a7_b.jpg",
     "width": 1023,
-    "height": 765
+    "height": 765,
+    "tags": [
+      {
+        "label": "projector",
+        "confidence": 23
+      },
+      {
+        "label": "television, television system",
+        "confidence": 22
+      },
+      {
+        "label": "monitor",
+        "confidence": 18
+      }
+    ]
   },
   {
     "path": "images/4006097512_07f7f47a20_b.jpg",
     "width": 1024,
-    "height": 682
+    "height": 682,
+    "tags": [
+      {
+        "label": "vacuum, vacuum cleaner",
+        "confidence": 30
+      },
+      {
+        "label": "Boston bull, Boston terrier",
+        "confidence": 8
+      },
+      {
+        "label": "Italian greyhound",
+        "confidence": 6
+      }
+    ]
   },
   {
     "path": "images/4007762041_80d421fa7c_z.jpg",
     "width": 640,
-    "height": 426
+    "height": 426,
+    "tags": [
+      {
+        "label": "desk",
+        "confidence": 9
+      },
+      {
+        "label": "photocopier",
+        "confidence": 6
+      },
+      {
+        "label": "grand piano, grand",
+        "confidence": 5
+      }
+    ]
   },
   {
     "path": "images/4007762333_8014a5f5ac_z.jpg",
     "width": 640,
-    "height": 426
+    "height": 426,
+    "tags": [
+      {
+        "label": "television, television system",
+        "confidence": 91
+      },
+      {
+        "label": "home theater, home theatre",
+        "confidence": 4
+      },
+      {
+        "label": "screen, CRT screen",
+        "confidence": 3
+      }
+    ]
   },
   {
     "path": "images/4007762465_96517ba8e8_z.jpg",
     "width": 640,
-    "height": 426
+    "height": 426,
+    "tags": [
+      {
+        "label": "turnstile",
+        "confidence": 67
+      },
+      {
+        "label": "sliding door",
+        "confidence": 18
+      },
+      {
+        "label": "prison, prison house",
+        "confidence": 7
+      }
+    ]
   },
   {
     "path": "images/4008476141_080d984687_c.jpg",
     "width": 800,
-    "height": 533
+    "height": 533,
+    "tags": [
+      {
+        "label": "rubber eraser, rubber, pencil eraser",
+        "confidence": 28
+      },
+      {
+        "label": "ballpoint, ballpoint pen, ballpen, Biro",
+        "confidence": 12
+      },
+      {
+        "label": "fountain pen",
+        "confidence": 6
+      }
+    ]
   },
   {
     "path": "images/4008527352_e61693d1b7_z.jpg",
     "width": 640,
-    "height": 426
+    "height": 426,
+    "tags": [
+      {
+        "label": "gas pump, gasoline pump, petrol pump, island dispenser",
+        "confidence": 22
+      },
+      {
+        "label": "sax, saxophone",
+        "confidence": 20
+      },
+      {
+        "label": "cellular telephone, cellular phone, cellphone, cell, mobile phone",
+        "confidence": 11
+      }
+    ]
   },
   {
     "path": "images/4008527480_e72b9a01a2_z.jpg",
     "width": 640,
-    "height": 426
+    "height": 426,
+    "tags": [
+      {
+        "label": "power drill",
+        "confidence": 14
+      },
+      {
+        "label": "laptop, laptop computer",
+        "confidence": 11
+      },
+      {
+        "label": "sewing machine",
+        "confidence": 9
+      }
+    ]
   },
   {
     "path": "images/4008527844_be2236f39c_z.jpg",
     "width": 640,
-    "height": 426
+    "height": 426,
+    "tags": [
+      {
+        "label": "restaurant, eating house, eating place, eatery",
+        "confidence": 35
+      },
+      {
+        "label": "library",
+        "confidence": 9
+      },
+      {
+        "label": "candle, taper, wax light",
+        "confidence": 7
+      }
+    ]
   },
   {
     "path": "images/4009242292_f89ebd4a30_c.jpg",
     "width": 800,
-    "height": 533
+    "height": 533,
+    "tags": [
+      {
+        "label": "piggy bank, penny bank",
+        "confidence": 17
+      },
+      {
+        "label": "ping-pong ball",
+        "confidence": 9
+      },
+      {
+        "label": "bobsled, bobsleigh, bob",
+        "confidence": 7
+      }
+    ]
   },
   {
     "path": "images/4009242534_c946bb0990_c.jpg",
     "width": 800,
-    "height": 533
+    "height": 533,
+    "tags": [
+      {
+        "label": "quill, quill pen",
+        "confidence": 22
+      },
+      {
+        "label": "carton",
+        "confidence": 11
+      },
+      {
+        "label": "envelope",
+        "confidence": 9
+      }
+    ]
   },
   {
     "path": "images/4012936323_5b2e40e14f_c.jpg",
     "width": 800,
-    "height": 533
+    "height": 533,
+    "tags": [
+      {
+        "label": "sewing machine",
+        "confidence": 36
+      },
+      {
+        "label": "quill, quill pen",
+        "confidence": 5
+      },
+      {
+        "label": "plane, carpenter's plane, woodworking plane",
+        "confidence": 5
+      }
+    ]
   },
   {
     "path": "images/4012936359_d511772fb1_c.jpg",
     "width": 800,
-    "height": 533
+    "height": 533,
+    "tags": [
+      {
+        "label": "jean, blue jean, denim",
+        "confidence": 43
+      },
+      {
+        "label": "comic book",
+        "confidence": 5
+      },
+      {
+        "label": "sweatshirt",
+        "confidence": 4
+      }
+    ]
   },
   {
     "path": "images/4013342055_339927d67e_o.jpg",
     "width": 1573,
-    "height": 2410
+    "height": 2410,
+    "tags": [
+      {
+        "label": "fountain",
+        "confidence": 24
+      },
+      {
+        "label": "restaurant, eating house, eating place, eatery",
+        "confidence": 8
+      },
+      {
+        "label": "library",
+        "confidence": 8
+      }
+    ]
   },
   {
     "path": "images/4013344289_e2143f4c6c_o.jpg",
     "width": 3264,
-    "height": 1860
+    "height": 1860,
+    "tags": [
+      {
+        "label": "jinrikisha, ricksha, rickshaw",
+        "confidence": 9
+      },
+      {
+        "label": "wool, woolen, woollen",
+        "confidence": 5
+      },
+      {
+        "label": "tricycle, trike, velocipede",
+        "confidence": 5
+      }
+    ]
   },
   {
     "path": "images/4013691058_766104b7d8_c.jpg",
     "width": 800,
-    "height": 533
+    "height": 533,
+    "tags": [
+      {
+        "label": "chain mail, ring mail, mail, chain armor, chain armour, ring armor, ring armour",
+        "confidence": 63
+      },
+      {
+        "label": "butcher shop, meat market",
+        "confidence": 3
+      },
+      {
+        "label": "grocery store, grocery, food market, market",
+        "confidence": 2
+      }
+    ]
   },
   {
     "path": "images/4014108902_79cbda81d8_o.jpg",
     "width": 3264,
-    "height": 2448
+    "height": 2448,
+    "tags": [
+      {
+        "label": "radiator",
+        "confidence": 92
+      },
+      {
+        "label": "trilobite",
+        "confidence": 7
+      },
+      {
+        "label": "nail",
+        "confidence": 0
+      }
+    ]
   },
   {
     "path": "images/4014109700_ed155aea11_o.jpg",
     "width": 2129,
-    "height": 2448
+    "height": 2448,
+    "tags": [
+      {
+        "label": "laptop, laptop computer",
+        "confidence": 86
+      },
+      {
+        "label": "notebook, notebook computer",
+        "confidence": 8
+      },
+      {
+        "label": "Polaroid camera, Polaroid Land camera",
+        "confidence": 1
+      }
+    ]
   },
   {
     "path": "images/4014110058_22509e4127_o.jpg",
     "width": 3264,
-    "height": 2448
+    "height": 2448,
+    "tags": [
+      {
+        "label": "restaurant, eating house, eating place, eatery",
+        "confidence": 28
+      },
+      {
+        "label": "guillotine",
+        "confidence": 15
+      },
+      {
+        "label": "bookshop, bookstore, bookstall",
+        "confidence": 12
+      }
+    ]
   },
   {
     "path": "images/4015669143_f226042721_o.jpg",
     "width": 2874,
-    "height": 2381
+    "height": 2381,
+    "tags": [
+      {
+        "label": "pole",
+        "confidence": 6
+      },
+      {
+        "label": "nail",
+        "confidence": 4
+      },
+      {
+        "label": "spider web, spider's web",
+        "confidence": 3
+      }
+    ]
   },
   {
     "path": "images/4015670505_e307d07d66_o.jpg",
     "width": 3264,
-    "height": 2448
+    "height": 2448,
+    "tags": [
+      {
+        "label": "digital clock",
+        "confidence": 31
+      },
+      {
+        "label": "book jacket, dust cover, dust jacket, dust wrapper",
+        "confidence": 16
+      },
+      {
+        "label": "laptop, laptop computer",
+        "confidence": 4
+      }
+    ]
   },
   {
     "path": "images/4015670993_5a68edeeee_o.jpg",
     "width": 3264,
-    "height": 2448
+    "height": 2448,
+    "tags": [
+      {
+        "label": "theater curtain, theatre curtain",
+        "confidence": 29
+      },
+      {
+        "label": "wallet, billfold, notecase, pocketbook",
+        "confidence": 13
+      },
+      {
+        "label": "digital clock",
+        "confidence": 11
+      }
+    ]
   },
   {
     "path": "images/4015671899_694599aeb3_o.jpg",
     "width": 3179,
-    "height": 2336
+    "height": 2336,
+    "tags": [
+      {
+        "label": "scoreboard",
+        "confidence": 54
+      },
+      {
+        "label": "menu",
+        "confidence": 17
+      },
+      {
+        "label": "screen, CRT screen",
+        "confidence": 14
+      }
+    ]
   },
   {
     "path": "images/4015672253_101b07eb34_o.jpg",
     "width": 3264,
-    "height": 2448
+    "height": 2448,
+    "tags": [
+      {
+        "label": "bannister, banister, balustrade, balusters, handrail",
+        "confidence": 73
+      },
+      {
+        "label": "theater curtain, theatre curtain",
+        "confidence": 5
+      },
+      {
+        "label": "church, church building",
+        "confidence": 3
+      }
+    ]
   },
   {
     "path": "images/4016432028_492cc878d4_o.jpg",
     "width": 2934,
-    "height": 2448
+    "height": 2448,
+    "tags": [
+      {
+        "label": "envelope",
+        "confidence": 67
+      },
+      {
+        "label": "rubber eraser, rubber, pencil eraser",
+        "confidence": 14
+      },
+      {
+        "label": "toilet tissue, toilet paper, bathroom tissue",
+        "confidence": 2
+      }
+    ]
   },
   {
     "path": "images/4016432442_d14b4aabd5_o.jpg",
     "width": 2097,
-    "height": 2908
+    "height": 2908,
+    "tags": [
+      {
+        "label": "sandbar, sand bar",
+        "confidence": 9
+      },
+      {
+        "label": "stingray",
+        "confidence": 7
+      },
+      {
+        "label": "sea lion",
+        "confidence": 7
+      }
+    ]
   },
   {
     "path": "images/4016434116_f907730638_o.jpg",
     "width": 3264,
-    "height": 2448
+    "height": 2448,
+    "tags": [
+      {
+        "label": "jersey, T-shirt, tee shirt",
+        "confidence": 31
+      },
+      {
+        "label": "monitor",
+        "confidence": 14
+      },
+      {
+        "label": "scoreboard",
+        "confidence": 9
+      }
+    ]
   },
   {
     "path": "images/4024077552_7b4aa282a9_b.jpg",
     "width": 1024,
-    "height": 683
+    "height": 683,
+    "tags": [
+      {
+        "label": "bannister, banister, balustrade, balusters, handrail",
+        "confidence": 100
+      },
+      {
+        "label": "radiator",
+        "confidence": 0
+      },
+      {
+        "label": "window shade",
+        "confidence": 0
+      }
+    ]
   },
   {
     "path": "images/4024136224_4c8cb949d9_b.jpg",
     "width": 975,
-    "height": 650
+    "height": 650,
+    "tags": [
+      {
+        "label": "harmonica, mouth organ, harp, mouth harp",
+        "confidence": 40
+      },
+      {
+        "label": "cellular telephone, cellular phone, cellphone, cell, mobile phone",
+        "confidence": 22
+      },
+      {
+        "label": "laptop, laptop computer",
+        "confidence": 6
+      }
+    ]
   },
   {
     "path": "images/4024137604_be22d453ac_b.jpg",
     "width": 975,
-    "height": 650
+    "height": 650,
+    "tags": [
+      {
+        "label": "restaurant, eating house, eating place, eatery",
+        "confidence": 11
+      },
+      {
+        "label": "barbershop",
+        "confidence": 11
+      },
+      {
+        "label": "bookshop, bookstore, bookstall",
+        "confidence": 10
+      }
+    ]
   },
   {
     "path": "images/4025153635_1c08ca388e_b.jpg",
     "width": 975,
-    "height": 650
+    "height": 650,
+    "tags": [
+      {
+        "label": "Leonberg",
+        "confidence": 48
+      },
+      {
+        "label": "Irish wolfhound",
+        "confidence": 6
+      },
+      {
+        "label": "briard",
+        "confidence": 3
+      }
+    ]
   },
   {
     "path": "images/4025153875_90d22ca563_b.jpg",
     "width": 975,
-    "height": 650
+    "height": 650,
+    "tags": [
+      {
+        "label": "shoe shop, shoe-shop, shoe store",
+        "confidence": 11
+      },
+      {
+        "label": "butcher shop, meat market",
+        "confidence": 5
+      },
+      {
+        "label": "miniskirt, mini",
+        "confidence": 5
+      }
+    ]
   },
   {
     "path": "images/4025154283_fcc31d2d31_z.jpg",
     "width": 426,
-    "height": 639
+    "height": 639,
+    "tags": [
+      {
+        "label": "notebook, notebook computer",
+        "confidence": 13
+      },
+      {
+        "label": "park bench",
+        "confidence": 6
+      },
+      {
+        "label": "studio couch, day bed",
+        "confidence": 4
+      }
+    ]
   },
   {
     "path": "images/4025154339_3d2da506af_z.jpg",
     "width": 426,
-    "height": 639
+    "height": 639,
+    "tags": [
+      {
+        "label": "jean, blue jean, denim",
+        "confidence": 9
+      },
+      {
+        "label": "shoe shop, shoe-shop, shoe store",
+        "confidence": 5
+      },
+      {
+        "label": "clog, geta, patten, sabot",
+        "confidence": 5
+      }
+    ]
   },
   {
     "path": "images/4025154461_33c7847bcc_b.jpg",
     "width": 975,
-    "height": 650
+    "height": 650,
+    "tags": [
+      {
+        "label": "laptop, laptop computer",
+        "confidence": 62
+      },
+      {
+        "label": "notebook, notebook computer",
+        "confidence": 9
+      },
+      {
+        "label": "projector",
+        "confidence": 3
+      }
+    ]
   },
   {
     "path": "images/4025905776_ee5f102d51_b.jpg",
     "width": 975,
-    "height": 650
+    "height": 650,
+    "tags": [
+      {
+        "label": "projector",
+        "confidence": 44
+      },
+      {
+        "label": "printer",
+        "confidence": 16
+      },
+      {
+        "label": "lab coat, laboratory coat",
+        "confidence": 7
+      }
+    ]
   },
   {
     "path": "images/4025919060_1b9edc1671_b.jpg",
     "width": 975,
-    "height": 650
+    "height": 650,
+    "tags": [
+      {
+        "label": "barber chair",
+        "confidence": 5
+      },
+      {
+        "label": "tobacco shop, tobacconist shop, tobacconist",
+        "confidence": 4
+      },
+      {
+        "label": "bow tie, bow-tie, bowtie",
+        "confidence": 4
+      }
+    ]
   },
   {
     "path": "images/4026872871_56b3ae65eb_o.jpg",
     "width": 1024,
-    "height": 768
+    "height": 768,
+    "tags": [
+      {
+        "label": "fire screen, fireguard",
+        "confidence": 18
+      },
+      {
+        "label": "pillow",
+        "confidence": 8
+      },
+      {
+        "label": "vase",
+        "confidence": 7
+      }
+    ]
   },
   {
     "path": "images/4026873535_411e554f68_o.jpg",
     "width": 1024,
-    "height": 768
+    "height": 768,
+    "tags": [
+      {
+        "label": "book jacket, dust cover, dust jacket, dust wrapper",
+        "confidence": 66
+      },
+      {
+        "label": "menu",
+        "confidence": 7
+      },
+      {
+        "label": "barbershop",
+        "confidence": 3
+      }
+    ]
   },
   {
     "path": "images/4026878871_721a711388_o.jpg",
     "width": 1024,
-    "height": 768
+    "height": 768,
+    "tags": [
+      {
+        "label": "menu",
+        "confidence": 85
+      },
+      {
+        "label": "book jacket, dust cover, dust jacket, dust wrapper",
+        "confidence": 13
+      },
+      {
+        "label": "packet",
+        "confidence": 0
+      }
+    ]
   },
   {
     "path": "images/4071128999_1b29443efe_c.jpg",
     "width": 800,
-    "height": 600
+    "height": 600,
+    "tags": [
+      {
+        "label": "bow tie, bow-tie, bowtie",
+        "confidence": 30
+      },
+      {
+        "label": "groom, bridegroom",
+        "confidence": 21
+      },
+      {
+        "label": "military uniform",
+        "confidence": 8
+      }
+    ]
   },
   {
     "path": "images/4071129981_7740034c9a_c.jpg",
     "width": 800,
-    "height": 600
+    "height": 600,
+    "tags": [
+      {
+        "label": "crossword puzzle, crossword",
+        "confidence": 60
+      },
+      {
+        "label": "carton",
+        "confidence": 18
+      },
+      {
+        "label": "binder, ring-binder",
+        "confidence": 4
+      }
+    ]
   },
   {
     "path": "images/4071130035_58c105693f_c.jpg",
     "width": 600,
-    "height": 800
+    "height": 800,
+    "tags": [
+      {
+        "label": "binder, ring-binder",
+        "confidence": 33
+      },
+      {
+        "label": "crossword puzzle, crossword",
+        "confidence": 23
+      },
+      {
+        "label": "menu",
+        "confidence": 9
+      }
+    ]
   },
   {
     "path": "images/4071130361_4c4d38cdca_c.jpg",
     "width": 800,
-    "height": 641
+    "height": 641,
+    "tags": [
+      {
+        "label": "wine bottle",
+        "confidence": 19
+      },
+      {
+        "label": "menu",
+        "confidence": 13
+      },
+      {
+        "label": "lotion",
+        "confidence": 7
+      }
+    ]
   },
   {
     "path": "images/4071130777_c34d28e44c_c.jpg",
     "width": 800,
-    "height": 641
+    "height": 641,
+    "tags": [
+      {
+        "label": "quilt, comforter, comfort, puff",
+        "confidence": 16
+      },
+      {
+        "label": "stage",
+        "confidence": 8
+      },
+      {
+        "label": "prayer rug, prayer mat",
+        "confidence": 6
+      }
+    ]
   },
   {
     "path": "images/4071131047_107be030f3_c.jpg",
     "width": 800,
-    "height": 550
+    "height": 550,
+    "tags": [
+      {
+        "label": "pay-phone, pay-station",
+        "confidence": 41
+      },
+      {
+        "label": "carton",
+        "confidence": 13
+      },
+      {
+        "label": "vacuum, vacuum cleaner",
+        "confidence": 8
+      }
+    ]
   },
   {
     "path": "images/4071891612_bbdf296d8c_c.jpg",
     "width": 800,
-    "height": 600
+    "height": 600,
+    "tags": [
+      {
+        "label": "menu",
+        "confidence": 56
+      },
+      {
+        "label": "binder, ring-binder",
+        "confidence": 14
+      },
+      {
+        "label": "refrigerator, icebox",
+        "confidence": 8
+      }
+    ]
   },
   {
     "path": "images/4071891720_799e50d64e_c.jpg",
     "width": 800,
-    "height": 600
+    "height": 600,
+    "tags": [
+      {
+        "label": "pay-phone, pay-station",
+        "confidence": 14
+      },
+      {
+        "label": "dial telephone, dial phone",
+        "confidence": 12
+      },
+      {
+        "label": "vacuum, vacuum cleaner",
+        "confidence": 11
+      }
+    ]
   },
   {
     "path": "images/4071891864_7c6c623d18_c.jpg",
     "width": 800,
-    "height": 642
+    "height": 642,
+    "tags": [
+      {
+        "label": "book jacket, dust cover, dust jacket, dust wrapper",
+        "confidence": 44
+      },
+      {
+        "label": "binder, ring-binder",
+        "confidence": 19
+      },
+      {
+        "label": "menu",
+        "confidence": 10
+      }
+    ]
   },
   {
     "path": "images/4071892382_073ab8389c_c.jpg",
     "width": 800,
-    "height": 600
+    "height": 600,
+    "tags": [
+      {
+        "label": "vending machine",
+        "confidence": 20
+      },
+      {
+        "label": "sewing machine",
+        "confidence": 12
+      },
+      {
+        "label": "carton",
+        "confidence": 12
+      }
+    ]
   },
   {
     "path": "images/4071892594_971a394848_c.jpg",
     "width": 800,
-    "height": 589
+    "height": 589,
+    "tags": [
+      {
+        "label": "monitor",
+        "confidence": 66
+      },
+      {
+        "label": "screen, CRT screen",
+        "confidence": 31
+      },
+      {
+        "label": "television, television system",
+        "confidence": 1
+      }
+    ]
   }
 ]

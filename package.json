@@ -4,9 +4,13 @@
   "description": "Tycia image generator",
   "main": "generate-images-json.js",
   "scripts": {
-    "generate-images": "node generate-images-json.js"
+    "generate-images": "node generate-images-json.js",
+    "classify-images": "node classify-images.js"
   },
   "dependencies": {
-    "image-size": "^1.0.0"
+    "@tensorflow-models/mobilenet": "^2.1.0",
+    "@tensorflow/tfjs-node": "^4.15.0",
+    "image-size": "^1.0.0",
+    "jpeg-js": "^0.4.4"
   }
 }
