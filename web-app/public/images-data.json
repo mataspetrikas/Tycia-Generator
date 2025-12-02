@@ -1,0 +1,1458 @@
+[
+  {
+    "path": "images/4005332825_16a1d14570_b.jpg",
+    "width": 1024,
+    "height": 682,
+    "tags": [
+      {
+        "label": "people",
+        "confidence": 23
+      },
+      {
+        "label": "artwork",
+        "confidence": 22
+      },
+      {
+        "label": "object",
+        "confidence": 22
+      },
+      {
+        "label": "texts",
+        "confidence": 21
+      },
+      {
+        "label": "exhibition",
+        "confidence": 12
+      }
+    ],
+    "flickr_url": "https://www.flickr.com/photos/11631579@N00/4005332825"
+  },
+  {
+    "path": "images/4005341209_37290184a7_b.jpg",
+    "width": 1023,
+    "height": 765,
+    "tags": [
+      {
+        "label": "exhibition",
+        "confidence": 42
+      },
+      {
+        "label": "artwork",
+        "confidence": 28
+      },
+      {
+        "label": "texts",
+        "confidence": 14
+      },
+      {
+        "label": "object",
+        "confidence": 9
+      },
+      {
+        "label": "people",
+        "confidence": 7
+      }
+    ],
+    "flickr_url": "https://www.flickr.com/photos/11631579@N00/4005341209"
+  },
+  {
+    "path": "images/4006097512_07f7f47a20_b.jpg",
+    "width": 1024,
+    "height": 682,
+    "tags": [
+      {
+        "label": "exhibition",
+        "confidence": 34
+      },
+      {
+        "label": "object",
+        "confidence": 28
+      },
+      {
+        "label": "people",
+        "confidence": 19
+      },
+      {
+        "label": "artwork",
+        "confidence": 14
+      },
+      {
+        "label": "texts",
+        "confidence": 5
+      }
+    ],
+    "flickr_url": "https://www.flickr.com/photos/11631579@N00/4006097512"
+  },
+  {
+    "path": "images/4007762041_80d421fa7c_z.jpg",
+    "width": 640,
+    "height": 426,
+    "tags": [
+      {
+        "label": "object",
+        "confidence": 30
+      },
+      {
+        "label": "exhibition",
+        "confidence": 22
+      },
+      {
+        "label": "people",
+        "confidence": 20
+      },
+      {
+        "label": "artwork",
+        "confidence": 17
+      },
+      {
+        "label": "texts",
+        "confidence": 11
+      }
+    ],
+    "flickr_url": "https://www.flickr.com/photos/angina/4007762041"
+  },
+  {
+    "path": "images/4007762333_8014a5f5ac_z.jpg",
+    "width": 640,
+    "height": 426,
+    "tags": [
+      {
+        "label": "artwork",
+        "confidence": 24
+      },
+      {
+        "label": "object",
+        "confidence": 21
+      },
+      {
+        "label": "exhibition",
+        "confidence": 21
+      },
+      {
+        "label": "people",
+        "confidence": 17
+      },
+      {
+        "label": "texts",
+        "confidence": 17
+      }
+    ],
+    "flickr_url": "https://www.flickr.com/photos/angina/4007762333"
+  },
+  {
+    "path": "images/4007762465_96517ba8e8_z.jpg",
+    "width": 640,
+    "height": 426,
+    "tags": [
+      {
+        "label": "people",
+        "confidence": 37
+      },
+      {
+        "label": "exhibition",
+        "confidence": 20
+      },
+      {
+        "label": "object",
+        "confidence": 20
+      },
+      {
+        "label": "texts",
+        "confidence": 17
+      },
+      {
+        "label": "artwork",
+        "confidence": 6
+      }
+    ],
+    "flickr_url": "https://www.flickr.com/photos/angina/4007762465"
+  },
+  {
+    "path": "images/4008476141_080d984687_c.jpg",
+    "width": 800,
+    "height": 533,
+    "tags": [
+      {
+        "label": "texts",
+        "confidence": 30
+      },
+      {
+        "label": "artwork",
+        "confidence": 30
+      },
+      {
+        "label": "object",
+        "confidence": 18
+      },
+      {
+        "label": "people",
+        "confidence": 15
+      },
+      {
+        "label": "exhibition",
+        "confidence": 7
+      }
+    ],
+    "flickr_url": "https://www.flickr.com/photos/9428841@N02/4008476141"
+  },
+  {
+    "path": "images/4008527352_e61693d1b7_z.jpg",
+    "width": 640,
+    "height": 426,
+    "tags": [
+      {
+        "label": "object",
+        "confidence": 32
+      },
+      {
+        "label": "people",
+        "confidence": 25
+      },
+      {
+        "label": "artwork",
+        "confidence": 21
+      },
+      {
+        "label": "exhibition",
+        "confidence": 13
+      },
+      {
+        "label": "texts",
+        "confidence": 9
+      }
+    ],
+    "flickr_url": "https://www.flickr.com/photos/angina/4008527352"
+  },
+  {
+    "path": "images/4008527480_e72b9a01a2_z.jpg",
+    "width": 640,
+    "height": 426,
+    "tags": [
+      {
+        "label": "people",
+        "confidence": 32
+      },
+      {
+        "label": "artwork",
+        "confidence": 23
+      },
+      {
+        "label": "object",
+        "confidence": 19
+      },
+      {
+        "label": "exhibition",
+        "confidence": 16
+      },
+      {
+        "label": "texts",
+        "confidence": 10
+      }
+    ],
+    "flickr_url": "https://www.flickr.com/photos/angina/4008527480"
+  },
+  {
+    "path": "images/4008527844_be2236f39c_z.jpg",
+    "width": 640,
+    "height": 426,
+    "tags": [
+      {
+        "label": "people",
+        "confidence": 51
+      },
+      {
+        "label": "exhibition",
+        "confidence": 16
+      },
+      {
+        "label": "object",
+        "confidence": 14
+      },
+      {
+        "label": "texts",
+        "confidence": 11
+      },
+      {
+        "label": "artwork",
+        "confidence": 9
+      }
+    ],
+    "flickr_url": "https://www.flickr.com/photos/angina/4008527844"
+  },
+  {
+    "path": "images/4009242292_f89ebd4a30_c.jpg",
+    "width": 800,
+    "height": 533,
+    "tags": [
+      {
+        "label": "artwork",
+        "confidence": 28
+      },
+      {
+        "label": "object",
+        "confidence": 26
+      },
+      {
+        "label": "people",
+        "confidence": 23
+      },
+      {
+        "label": "texts",
+        "confidence": 14
+      },
+      {
+        "label": "exhibition",
+        "confidence": 9
+      }
+    ],
+    "flickr_url": "https://www.flickr.com/photos/9428841@N02/4009242292"
+  },
+  {
+    "path": "images/4009242534_c946bb0990_c.jpg",
+    "width": 800,
+    "height": 533,
+    "tags": [
+      {
+        "label": "exhibition",
+        "confidence": 30
+      },
+      {
+        "label": "people",
+        "confidence": 24
+      },
+      {
+        "label": "artwork",
+        "confidence": 22
+      },
+      {
+        "label": "object",
+        "confidence": 12
+      },
+      {
+        "label": "texts",
+        "confidence": 12
+      }
+    ],
+    "flickr_url": "https://www.flickr.com/photos/9428841@N02/4009242534"
+  },
+  {
+    "path": "images/4012936323_5b2e40e14f_c.jpg",
+    "width": 800,
+    "height": 533,
+    "tags": [
+      {
+        "label": "exhibition",
+        "confidence": 29
+      },
+      {
+        "label": "object",
+        "confidence": 26
+      },
+      {
+        "label": "people",
+        "confidence": 24
+      },
+      {
+        "label": "artwork",
+        "confidence": 14
+      },
+      {
+        "label": "texts",
+        "confidence": 7
+      }
+    ],
+    "flickr_url": "https://www.flickr.com/photos/9428841@N02/4012936323"
+  },
+  {
+    "path": "images/4012936359_d511772fb1_c.jpg",
+    "width": 800,
+    "height": 533,
+    "tags": [
+      {
+        "label": "object",
+        "confidence": 35
+      },
+      {
+        "label": "artwork",
+        "confidence": 23
+      },
+      {
+        "label": "people",
+        "confidence": 20
+      },
+      {
+        "label": "texts",
+        "confidence": 13
+      },
+      {
+        "label": "exhibition",
+        "confidence": 9
+      }
+    ],
+    "flickr_url": "https://www.flickr.com/photos/9428841@N02/4012936359"
+  },
+  {
+    "path": "images/4013342055_339927d67e_o.jpg",
+    "width": 1573,
+    "height": 2410,
+    "tags": [
+      {
+        "label": "people",
+        "confidence": 30
+      },
+      {
+        "label": "exhibition",
+        "confidence": 26
+      },
+      {
+        "label": "object",
+        "confidence": 19
+      },
+      {
+        "label": "artwork",
+        "confidence": 15
+      },
+      {
+        "label": "texts",
+        "confidence": 11
+      }
+    ],
+    "flickr_url": "https://www.flickr.com/photos/18637958@N08/4013342055"
+  },
+  {
+    "path": "images/4013344289_e2143f4c6c_o.jpg",
+    "width": 3264,
+    "height": 1860,
+    "tags": [
+      {
+        "label": "people",
+        "confidence": 40
+      },
+      {
+        "label": "artwork",
+        "confidence": 29
+      },
+      {
+        "label": "exhibition",
+        "confidence": 14
+      },
+      {
+        "label": "object",
+        "confidence": 10
+      },
+      {
+        "label": "texts",
+        "confidence": 6
+      }
+    ],
+    "flickr_url": "https://www.flickr.com/photos/18637958@N08/4013344289"
+  },
+  {
+    "path": "images/4013691058_766104b7d8_c.jpg",
+    "width": 800,
+    "height": 533,
+    "tags": [
+      {
+        "label": "people",
+        "confidence": 35
+      },
+      {
+        "label": "exhibition",
+        "confidence": 32
+      },
+      {
+        "label": "object",
+        "confidence": 14
+      },
+      {
+        "label": "artwork",
+        "confidence": 10
+      },
+      {
+        "label": "texts",
+        "confidence": 9
+      }
+    ],
+    "flickr_url": "https://www.flickr.com/photos/9428841@N02/4013691058"
+  },
+  {
+    "path": "images/4014108902_79cbda81d8_o.jpg",
+    "width": 3264,
+    "height": 2448,
+    "tags": [
+      {
+        "label": "artwork",
+        "confidence": 33
+      },
+      {
+        "label": "object",
+        "confidence": 25
+      },
+      {
+        "label": "texts",
+        "confidence": 18
+      },
+      {
+        "label": "exhibition",
+        "confidence": 15
+      },
+      {
+        "label": "people",
+        "confidence": 11
+      }
+    ],
+    "flickr_url": "https://www.flickr.com/photos/18637958@N08/4014108902"
+  },
+  {
+    "path": "images/4014109700_ed155aea11_o.jpg",
+    "width": 2129,
+    "height": 2448,
+    "tags": [
+      {
+        "label": "people",
+        "confidence": 26
+      },
+      {
+        "label": "object",
+        "confidence": 25
+      },
+      {
+        "label": "artwork",
+        "confidence": 22
+      },
+      {
+        "label": "texts",
+        "confidence": 16
+      },
+      {
+        "label": "exhibition",
+        "confidence": 11
+      }
+    ],
+    "flickr_url": "https://www.flickr.com/photos/18637958@N08/4014109700"
+  },
+  {
+    "path": "images/4014110058_22509e4127_o.jpg",
+    "width": 3264,
+    "height": 2448,
+    "tags": [
+      {
+        "label": "exhibition",
+        "confidence": 32
+      },
+      {
+        "label": "people",
+        "confidence": 24
+      },
+      {
+        "label": "artwork",
+        "confidence": 21
+      },
+      {
+        "label": "texts",
+        "confidence": 14
+      },
+      {
+        "label": "object",
+        "confidence": 9
+      }
+    ],
+    "flickr_url": "https://www.flickr.com/photos/18637958@N08/4014110058"
+  },
+  {
+    "path": "images/4015669143_f226042721_o.jpg",
+    "width": 2874,
+    "height": 2381,
+    "tags": [
+      {
+        "label": "artwork",
+        "confidence": 50
+      },
+      {
+        "label": "object",
+        "confidence": 18
+      },
+      {
+        "label": "texts",
+        "confidence": 12
+      },
+      {
+        "label": "exhibition",
+        "confidence": 12
+      },
+      {
+        "label": "people",
+        "confidence": 8
+      }
+    ],
+    "flickr_url": "https://www.flickr.com/photos/18637958@N08/4015669143"
+  },
+  {
+    "path": "images/4015670505_e307d07d66_o.jpg",
+    "width": 3264,
+    "height": 2448,
+    "tags": [
+      {
+        "label": "object",
+        "confidence": 31
+      },
+      {
+        "label": "texts",
+        "confidence": 26
+      },
+      {
+        "label": "people",
+        "confidence": 18
+      },
+      {
+        "label": "artwork",
+        "confidence": 18
+      },
+      {
+        "label": "exhibition",
+        "confidence": 8
+      }
+    ],
+    "flickr_url": "https://www.flickr.com/photos/18637958@N08/4015670505"
+  },
+  {
+    "path": "images/4015670993_5a68edeeee_o.jpg",
+    "width": 3264,
+    "height": 2448,
+    "tags": [
+      {
+        "label": "artwork",
+        "confidence": 36
+      },
+      {
+        "label": "exhibition",
+        "confidence": 18
+      },
+      {
+        "label": "object",
+        "confidence": 17
+      },
+      {
+        "label": "people",
+        "confidence": 15
+      },
+      {
+        "label": "texts",
+        "confidence": 14
+      }
+    ],
+    "flickr_url": "https://www.flickr.com/photos/18637958@N08/4015670993"
+  },
+  {
+    "path": "images/4015671899_694599aeb3_o.jpg",
+    "width": 3179,
+    "height": 2336,
+    "tags": [
+      {
+        "label": "texts",
+        "confidence": 68
+      },
+      {
+        "label": "object",
+        "confidence": 11
+      },
+      {
+        "label": "people",
+        "confidence": 10
+      },
+      {
+        "label": "artwork",
+        "confidence": 7
+      },
+      {
+        "label": "exhibition",
+        "confidence": 4
+      }
+    ],
+    "flickr_url": "https://www.flickr.com/photos/18637958@N08/4015671899"
+  },
+  {
+    "path": "images/4015672253_101b07eb34_o.jpg",
+    "width": 3264,
+    "height": 2448,
+    "tags": [
+      {
+        "label": "exhibition",
+        "confidence": 31
+      },
+      {
+        "label": "artwork",
+        "confidence": 30
+      },
+      {
+        "label": "object",
+        "confidence": 18
+      },
+      {
+        "label": "people",
+        "confidence": 11
+      },
+      {
+        "label": "texts",
+        "confidence": 9
+      }
+    ],
+    "flickr_url": "https://www.flickr.com/photos/18637958@N08/4015672253"
+  },
+  {
+    "path": "images/4016432028_492cc878d4_o.jpg",
+    "width": 2934,
+    "height": 2448,
+    "tags": [
+      {
+        "label": "object",
+        "confidence": 23
+      },
+      {
+        "label": "exhibition",
+        "confidence": 21
+      },
+      {
+        "label": "people",
+        "confidence": 19
+      },
+      {
+        "label": "texts",
+        "confidence": 19
+      },
+      {
+        "label": "artwork",
+        "confidence": 18
+      }
+    ],
+    "flickr_url": "https://www.flickr.com/photos/18637958@N08/4016432028"
+  },
+  {
+    "path": "images/4016432442_d14b4aabd5_o.jpg",
+    "width": 2097,
+    "height": 2908,
+    "tags": [
+      {
+        "label": "artwork",
+        "confidence": 26
+      },
+      {
+        "label": "texts",
+        "confidence": 24
+      },
+      {
+        "label": "people",
+        "confidence": 17
+      },
+      {
+        "label": "exhibition",
+        "confidence": 16
+      },
+      {
+        "label": "object",
+        "confidence": 16
+      }
+    ],
+    "flickr_url": "https://www.flickr.com/photos/18637958@N08/4016432442"
+  },
+  {
+    "path": "images/4016434116_f907730638_o.jpg",
+    "width": 3264,
+    "height": 2448,
+    "tags": [
+      {
+        "label": "texts",
+        "confidence": 35
+      },
+      {
+        "label": "object",
+        "confidence": 28
+      },
+      {
+        "label": "exhibition",
+        "confidence": 14
+      },
+      {
+        "label": "people",
+        "confidence": 12
+      },
+      {
+        "label": "artwork",
+        "confidence": 11
+      }
+    ],
+    "flickr_url": "https://www.flickr.com/photos/18637958@N08/4016434116"
+  },
+  {
+    "path": "images/4024077552_7b4aa282a9_b.jpg",
+    "width": 1024,
+    "height": 683,
+    "tags": [
+      {
+        "label": "exhibition",
+        "confidence": 26
+      },
+      {
+        "label": "people",
+        "confidence": 22
+      },
+      {
+        "label": "object",
+        "confidence": 20
+      },
+      {
+        "label": "artwork",
+        "confidence": 17
+      },
+      {
+        "label": "texts",
+        "confidence": 15
+      }
+    ],
+    "flickr_url": "https://www.flickr.com/photos/11631579@N00/4024077552"
+  },
+  {
+    "path": "images/4024136224_4c8cb949d9_b.jpg",
+    "width": 975,
+    "height": 650,
+    "tags": [
+      {
+        "label": "people",
+        "confidence": 32
+      },
+      {
+        "label": "object",
+        "confidence": 27
+      },
+      {
+        "label": "texts",
+        "confidence": 16
+      },
+      {
+        "label": "artwork",
+        "confidence": 13
+      },
+      {
+        "label": "exhibition",
+        "confidence": 11
+      }
+    ],
+    "flickr_url": "https://www.flickr.com/photos/11631579@N00/4024136224"
+  },
+  {
+    "path": "images/4024137604_be22d453ac_b.jpg",
+    "width": 975,
+    "height": 650,
+    "tags": [
+      {
+        "label": "exhibition",
+        "confidence": 45
+      },
+      {
+        "label": "people",
+        "confidence": 39
+      },
+      {
+        "label": "artwork",
+        "confidence": 7
+      },
+      {
+        "label": "object",
+        "confidence": 6
+      },
+      {
+        "label": "texts",
+        "confidence": 4
+      }
+    ],
+    "flickr_url": "https://www.flickr.com/photos/11631579@N00/4024137604"
+  },
+  {
+    "path": "images/4025153635_1c08ca388e_b.jpg",
+    "width": 975,
+    "height": 650,
+    "tags": [
+      {
+        "label": "people",
+        "confidence": 28
+      },
+      {
+        "label": "exhibition",
+        "confidence": 27
+      },
+      {
+        "label": "object",
+        "confidence": 25
+      },
+      {
+        "label": "artwork",
+        "confidence": 13
+      },
+      {
+        "label": "texts",
+        "confidence": 7
+      }
+    ],
+    "flickr_url": "https://www.flickr.com/photos/9428841@N02/4025153635"
+  },
+  {
+    "path": "images/4025153875_90d22ca563_b.jpg",
+    "width": 975,
+    "height": 650,
+    "tags": [
+      {
+        "label": "people",
+        "confidence": 73
+      },
+      {
+        "label": "exhibition",
+        "confidence": 11
+      },
+      {
+        "label": "object",
+        "confidence": 6
+      },
+      {
+        "label": "texts",
+        "confidence": 6
+      },
+      {
+        "label": "artwork",
+        "confidence": 4
+      }
+    ],
+    "flickr_url": "https://www.flickr.com/photos/9428841@N02/4025153875"
+  },
+  {
+    "path": "images/4025154283_fcc31d2d31_z.jpg",
+    "width": 426,
+    "height": 639,
+    "tags": [
+      {
+        "label": "people",
+        "confidence": 35
+      },
+      {
+        "label": "object",
+        "confidence": 24
+      },
+      {
+        "label": "exhibition",
+        "confidence": 22
+      },
+      {
+        "label": "artwork",
+        "confidence": 15
+      },
+      {
+        "label": "texts",
+        "confidence": 4
+      }
+    ],
+    "flickr_url": "https://www.flickr.com/photos/9428841@N02/4025154283"
+  },
+  {
+    "path": "images/4025154339_3d2da506af_z.jpg",
+    "width": 426,
+    "height": 639,
+    "tags": [
+      {
+        "label": "object",
+        "confidence": 31
+      },
+      {
+        "label": "exhibition",
+        "confidence": 23
+      },
+      {
+        "label": "people",
+        "confidence": 22
+      },
+      {
+        "label": "artwork",
+        "confidence": 18
+      },
+      {
+        "label": "texts",
+        "confidence": 5
+      }
+    ],
+    "flickr_url": "https://www.flickr.com/photos/9428841@N02/4025154339"
+  },
+  {
+    "path": "images/4025154461_33c7847bcc_b.jpg",
+    "width": 975,
+    "height": 650,
+    "tags": [
+      {
+        "label": "people",
+        "confidence": 39
+      },
+      {
+        "label": "texts",
+        "confidence": 19
+      },
+      {
+        "label": "object",
+        "confidence": 16
+      },
+      {
+        "label": "exhibition",
+        "confidence": 15
+      },
+      {
+        "label": "artwork",
+        "confidence": 11
+      }
+    ],
+    "flickr_url": "https://www.flickr.com/photos/9428841@N02/4025154461"
+  },
+  {
+    "path": "images/4025905776_ee5f102d51_b.jpg",
+    "width": 975,
+    "height": 650,
+    "tags": [
+      {
+        "label": "object",
+        "confidence": 28
+      },
+      {
+        "label": "exhibition",
+        "confidence": 26
+      },
+      {
+        "label": "people",
+        "confidence": 25
+      },
+      {
+        "label": "artwork",
+        "confidence": 16
+      },
+      {
+        "label": "texts",
+        "confidence": 5
+      }
+    ],
+    "flickr_url": "https://www.flickr.com/photos/9428841@N02/4025905776"
+  },
+  {
+    "path": "images/4025919060_1b9edc1671_b.jpg",
+    "width": 975,
+    "height": 650,
+    "tags": [
+      {
+        "label": "people",
+        "confidence": 40
+      },
+      {
+        "label": "artwork",
+        "confidence": 20
+      },
+      {
+        "label": "object",
+        "confidence": 16
+      },
+      {
+        "label": "exhibition",
+        "confidence": 14
+      },
+      {
+        "label": "texts",
+        "confidence": 10
+      }
+    ],
+    "flickr_url": "https://www.flickr.com/photos/9428841@N02/4025919060"
+  },
+  {
+    "path": "images/4026872871_56b3ae65eb_o.jpg",
+    "width": 1024,
+    "height": 768,
+    "tags": [
+      {
+        "label": "object",
+        "confidence": 35
+      },
+      {
+        "label": "artwork",
+        "confidence": 33
+      },
+      {
+        "label": "texts",
+        "confidence": 16
+      },
+      {
+        "label": "people",
+        "confidence": 9
+      },
+      {
+        "label": "exhibition",
+        "confidence": 7
+      }
+    ],
+    "flickr_url": "https://www.flickr.com/photos/18637958@N08/4026872871"
+  },
+  {
+    "path": "images/4026873535_411e554f68_o.jpg",
+    "width": 1024,
+    "height": 768,
+    "tags": [
+      {
+        "label": "texts",
+        "confidence": 44
+      },
+      {
+        "label": "people",
+        "confidence": 18
+      },
+      {
+        "label": "object",
+        "confidence": 16
+      },
+      {
+        "label": "artwork",
+        "confidence": 13
+      },
+      {
+        "label": "exhibition",
+        "confidence": 8
+      }
+    ],
+    "flickr_url": "https://www.flickr.com/photos/18637958@N08/4026873535"
+  },
+  {
+    "path": "images/4026878871_721a711388_o.jpg",
+    "width": 1024,
+    "height": 768,
+    "tags": [
+      {
+        "label": "texts",
+        "confidence": 36
+      },
+      {
+        "label": "artwork",
+        "confidence": 20
+      },
+      {
+        "label": "object",
+        "confidence": 18
+      },
+      {
+        "label": "people",
+        "confidence": 13
+      },
+      {
+        "label": "exhibition",
+        "confidence": 13
+      }
+    ],
+    "flickr_url": "https://www.flickr.com/photos/18637958@N08/4026878871"
+  },
+  {
+    "path": "images/4071128999_1b29443efe_c.jpg",
+    "width": 800,
+    "height": 600,
+    "tags": [
+      {
+        "label": "people",
+        "confidence": 30
+      },
+      {
+        "label": "exhibition",
+        "confidence": 25
+      },
+      {
+        "label": "object",
+        "confidence": 19
+      },
+      {
+        "label": "artwork",
+        "confidence": 15
+      },
+      {
+        "label": "texts",
+        "confidence": 10
+      }
+    ],
+    "flickr_url": "https://www.flickr.com/photos/11631579@N00/4071128999"
+  },
+  {
+    "path": "images/4071129981_7740034c9a_c.jpg",
+    "width": 800,
+    "height": 600,
+    "tags": [
+      {
+        "label": "exhibition",
+        "confidence": 70
+      },
+      {
+        "label": "artwork",
+        "confidence": 11
+      },
+      {
+        "label": "people",
+        "confidence": 8
+      },
+      {
+        "label": "texts",
+        "confidence": 6
+      },
+      {
+        "label": "object",
+        "confidence": 5
+      }
+    ],
+    "flickr_url": "https://www.flickr.com/photos/11631579@N00/4071129981"
+  },
+  {
+    "path": "images/4071130035_58c105693f_c.jpg",
+    "width": 600,
+    "height": 800,
+    "tags": [
+      {
+        "label": "exhibition",
+        "confidence": 67
+      },
+      {
+        "label": "artwork",
+        "confidence": 13
+      },
+      {
+        "label": "texts",
+        "confidence": 8
+      },
+      {
+        "label": "people",
+        "confidence": 7
+      },
+      {
+        "label": "object",
+        "confidence": 5
+      }
+    ],
+    "flickr_url": "https://www.flickr.com/photos/11631579@N00/4071130035"
+  },
+  {
+    "path": "images/4071130361_4c4d38cdca_c.jpg",
+    "width": 800,
+    "height": 641,
+    "tags": [
+      {
+        "label": "exhibition",
+        "confidence": 47
+      },
+      {
+        "label": "artwork",
+        "confidence": 26
+      },
+      {
+        "label": "object",
+        "confidence": 11
+      },
+      {
+        "label": "texts",
+        "confidence": 8
+      },
+      {
+        "label": "people",
+        "confidence": 7
+      }
+    ],
+    "flickr_url": "https://www.flickr.com/photos/11631579@N00/4071130361"
+  },
+  {
+    "path": "images/4071130777_c34d28e44c_c.jpg",
+    "width": 800,
+    "height": 641,
+    "tags": [
+      {
+        "label": "exhibition",
+        "confidence": 96
+      },
+      {
+        "label": "artwork",
+        "confidence": 2
+      },
+      {
+        "label": "people",
+        "confidence": 1
+      },
+      {
+        "label": "object",
+        "confidence": 1
+      },
+      {
+        "label": "texts",
+        "confidence": 0
+      }
+    ],
+    "flickr_url": "https://www.flickr.com/photos/11631579@N00/4071130777"
+  },
+  {
+    "path": "images/4071131047_107be030f3_c.jpg",
+    "width": 800,
+    "height": 550,
+    "tags": [
+      {
+        "label": "exhibition",
+        "confidence": 47
+      },
+      {
+        "label": "artwork",
+        "confidence": 23
+      },
+      {
+        "label": "object",
+        "confidence": 13
+      },
+      {
+        "label": "people",
+        "confidence": 9
+      },
+      {
+        "label": "texts",
+        "confidence": 8
+      }
+    ],
+    "flickr_url": "https://www.flickr.com/photos/11631579@N00/4071131047"
+  },
+  {
+    "path": "images/4071891612_bbdf296d8c_c.jpg",
+    "width": 800,
+    "height": 600,
+    "tags": [
+      {
+        "label": "exhibition",
+        "confidence": 67
+      },
+      {
+        "label": "people",
+        "confidence": 9
+      },
+      {
+        "label": "artwork",
+        "confidence": 9
+      },
+      {
+        "label": "object",
+        "confidence": 8
+      },
+      {
+        "label": "texts",
+        "confidence": 7
+      }
+    ],
+    "flickr_url": "https://www.flickr.com/photos/11631579@N00/4071891612"
+  },
+  {
+    "path": "images/4071891720_799e50d64e_c.jpg",
+    "width": 800,
+    "height": 600,
+    "tags": [
+      {
+        "label": "exhibition",
+        "confidence": 61
+      },
+      {
+        "label": "artwork",
+        "confidence": 15
+      },
+      {
+        "label": "object",
+        "confidence": 13
+      },
+      {
+        "label": "texts",
+        "confidence": 6
+      },
+      {
+        "label": "people",
+        "confidence": 6
+      }
+    ],
+    "flickr_url": "https://www.flickr.com/photos/11631579@N00/4071891720"
+  },
+  {
+    "path": "images/4071891864_7c6c623d18_c.jpg",
+    "width": 800,
+    "height": 642,
+    "tags": [
+      {
+        "label": "exhibition",
+        "confidence": 67
+      },
+      {
+        "label": "people",
+        "confidence": 10
+      },
+      {
+        "label": "object",
+        "confidence": 9
+      },
+      {
+        "label": "artwork",
+        "confidence": 8
+      },
+      {
+        "label": "texts",
+        "confidence": 7
+      }
+    ],
+    "flickr_url": "https://www.flickr.com/photos/11631579@N00/4071891864"
+  },
+  {
+    "path": "images/4071892382_073ab8389c_c.jpg",
+    "width": 800,
+    "height": 600,
+    "tags": [
+      {
+        "label": "exhibition",
+        "confidence": 30
+      },
+      {
+        "label": "object",
+        "confidence": 22
+      },
+      {
+        "label": "artwork",
+        "confidence": 19
+      },
+      {
+        "label": "texts",
+        "confidence": 17
+      },
+      {
+        "label": "people",
+        "confidence": 13
+      }
+    ],
+    "flickr_url": "https://www.flickr.com/photos/11631579@N00/4071892382"
+  },
+  {
+    "path": "images/4071892594_971a394848_c.jpg",
+    "width": 800,
+    "height": 589,
+    "tags": [
+      {
+        "label": "object",
+        "confidence": 24
+      },
+      {
+        "label": "texts",
+        "confidence": 23
+      },
+      {
+        "label": "exhibition",
+        "confidence": 21
+      },
+      {
+        "label": "artwork",
+        "confidence": 16
+      },
+      {
+        "label": "people",
+        "confidence": 15
+      }
+    ],
+    "flickr_url": "https://www.flickr.com/photos/11631579@N00/4071892594"
+  }
+]
