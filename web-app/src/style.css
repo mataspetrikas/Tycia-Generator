@@ -44,9 +44,16 @@ header p {
   margin-top: 0.25rem;
 }
 
-.text-animation-link {
-  display: inline-block;
+.animation-nav {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
   margin-top: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.animation-link {
+  display: inline-block;
   padding: 0.75rem 1.5rem;
   background: #fff;
   color: #333;
@@ -54,10 +61,11 @@ header p {
   border: 2px solid #333;
   border-radius: 4px;
   font-weight: 500;
+  font-size: 0.9rem;
   transition: all 0.2s;
 }
 
-.text-animation-link:hover {
+.animation-link:hover {
   background: #333;
   color: #fff;
   transform: translateY(-2px);

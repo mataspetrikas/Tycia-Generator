@@ -9,7 +9,8 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: resolve(__dirname, 'index.html'),
-        animation: resolve(__dirname, 'text-animation.html')
+        animation: resolve(__dirname, 'text-animation.html'),
+        mask: resolve(__dirname, 'text-mask.html')
       }
     }
   }
