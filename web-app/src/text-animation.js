@@ -1,6 +1,6 @@
 // Text animation inspired by the Flash app
 const container = document.getElementById('animation-container');
-const animations = ['fadeInOut', 'slideAcross', 'rotateAndFade', 'zoomInOut', 'drift'];
+const animations = ['fadeInOut', 'slideAcross', 'scaleAndFade', 'zoomInOut', 'drift'];
 let textContent = '';
 let words = [];
 let activeFragments = 0;
@@ -73,8 +73,8 @@ function createTextFragment() {
   fragment.style.left = `${x}px`;
   fragment.style.top = `${y}px`;
 
-  // Random size (inspired by the reference image - varying sizes)
-  const fontSize = 20 + Math.random() * 80;
+  // Random size - much bigger range, some words can be massive
+  const fontSize = 20 + Math.random() * 200; // Range: 20-220px
   fragment.style.fontSize = `${fontSize}px`;
 
   // Random opacity for layering effect
@@ -83,14 +83,10 @@ function createTextFragment() {
 
   // Random animation
   const animation = animations[Math.floor(Math.random() * animations.length)];
-  const duration = 3 + Math.random() * 5;
+  const duration = 5 + Math.random() * 8; // Longer duration: 5-13 seconds
   fragment.style.animation = `${animation} ${duration}s ease-in-out`;
 
-  // Random rotation for more chaos
-  if (Math.random() > 0.5) {
-    const rotation = -30 + Math.random() * 60;
-    fragment.style.transform = `rotate(${rotation}deg)`;
-  }
+  // No rotation - removed for cleaner look
 
   container.appendChild(fragment);
   activeFragments++;
