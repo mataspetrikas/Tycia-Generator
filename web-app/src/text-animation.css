@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Courier New', Courier, monospace;
+  background: #f5f5f0;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+}
+
+#animation-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.text-fragment {
+  position: absolute;
+  font-weight: bold;
+  color: #000;
+  white-space: nowrap;
+  pointer-events: none;
+  user-select: none;
+  transform-origin: center;
+}
+
+/* Fade in and out animation */
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+    transform: translateY(20px) scale(0.8);
+  }
+  10% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-20px) scale(0.9);
+  }
+}
+
+/* Slide animation */
+@keyframes slideAcross {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  10% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+}
+
+/* Rotate and fade */
+@keyframes rotateAndFade {
+  0% {
+    opacity: 0;
+    transform: rotate(-15deg) scale(0.5);
+  }
+  10% {
+    opacity: 1;
+    transform: rotate(0deg) scale(1);
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: rotate(15deg) scale(0.8);
+  }
+}
+
+/* Zoom in and out */
+@keyframes zoomInOut {
+  0% {
+    opacity: 0;
+    transform: scale(0.3);
+  }
+  10% {
+    opacity: 0.9;
+    transform: scale(1.2);
+  }
+  90% {
+    opacity: 0.9;
+  }
+  100% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+}
+
+/* Drift animation */
+@keyframes drift {
+  0% {
+    opacity: 0;
+    transform: translate(-50px, 50px);
+  }
+  10% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translate(50px, -50px);
+  }
+}
+
+.controls {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+  display: flex;
+  gap: 10px;
+}
+
+.control-btn {
+  background: rgba(255, 255, 255, 0.9);
+  border: 2px solid #000;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  font-size: 24px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s;
+  text-decoration: none;
+  color: #000;
+}
+
+.control-btn:hover {
+  background: #000;
+  color: #fff;
+  transform: scale(1.1);
+}
+
+.control-btn:active {
+  transform: scale(0.95);
+}
+
+/* Fullscreen styles */
+:fullscreen #animation-container,
+:-webkit-full-screen #animation-container,
+:-moz-full-screen #animation-container {
+  background: #f5f5f0;
+}
