@@ -12,6 +12,11 @@ dist
 dist-ssr
 *.local
 
+# Copied assets from parent directory
+public/images/
+public/images-data.json
+public/text-data.json
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json

@@ -4,8 +4,9 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
+    "copy-assets": "node scripts/copy-assets.cjs",
+    "dev": "npm run copy-assets && vite",
+    "build": "npm run copy-assets && vite build",
     "preview": "vite preview"
   },
   "devDependencies": {

@@ -10,15 +10,20 @@ async function init() {
     // Load images data
     const baseUrl = import.meta.env.BASE_URL;
     const imagesData = await fetch(`${baseUrl}images-data.json`).then(r => r.json());
+    const textData = await fetch(`${baseUrl}text-data.json`).then(r => r.json());
 
-    // TODO: Fix text-data.json and re-enable text posts
-    // const textsData = await fetch(`${baseUrl}text-data.json`).then(r => r.json());
-
-    // Create gallery items from images
-    items = imagesData.map(img => ({
+    // Create gallery items from images and texts
+    const imageItems = imagesData.map(img => ({
       type: 'image',
       ...img
     }));
+
+    const textItems = textData.posts.map(post => ({
+      type: 'text',
+      ...post
+    }));
+
+    items = [...imageItems, ...textItems];
 
     // Shuffle items for varied gallery
     items = items.sort(() => Math.random() - 0.5);
@@ -45,10 +50,10 @@ function renderGallery() {
         </div>
       `;
     } else {
-      const preview = item.text.substring(0, 100);
+      const preview = item.content.substring(0, 100);
       return `
         <div class="post-it" data-index="${index}">
-          <div class="post-it-text">${preview}${item.text.length > 100 ? '...' : ''}</div>
+          <div class="post-it-text">${preview}${item.content.length > 100 ? '...' : ''}</div>
         </div>
       `;
     }
@@ -113,7 +118,7 @@ function openModal(index) {
   } else {
     modalContent.innerHTML = `
       ${item.title ? `<h2>${item.title}</h2>` : ''}
-      <div class="text-content">${item.text}</div>
+      <div class="text-content">${item.content}</div>
       <div class="meta">
         ${item.date ? `<div>Date: ${new Date(item.date).toLocaleDateString()}</div>` : ''}
       </div>
