@@ -83,7 +83,11 @@ function createTextFragment() {
 
   // Random animation
   const animation = animations[Math.floor(Math.random() * animations.length)];
-  const duration = 5 + Math.random() * 8; // Longer duration: 5-13 seconds
+
+  // Duration scales with font size - bigger text = slower animation
+  // Small text (20px): ~4-7s, Large text (220px): ~12-18s
+  const baseDuration = 4 + (fontSize / 220) * 10;
+  const duration = baseDuration + Math.random() * 3;
   fragment.style.animation = `${animation} ${duration}s ease-in-out`;
 
   // No rotation - removed for cleaner look
