@@ -73,28 +73,6 @@ async function loadData() {
   }
 }
 
-function loadImage(index) {
-  if (!images[index]) return;
-
-  const img = document.createElement('img');
-  const baseUrl = import.meta.env.BASE_URL;
-  img.src = `${baseUrl}${images[index].path}`;
-
-  img.onload = () => {
-    // Remove previous active image
-    const prevActive = imageContainer.querySelector('img.active');
-    if (prevActive) {
-      prevActive.classList.remove('active');
-      // Remove after fade out
-      setTimeout(() => prevActive.remove(), 2000);
-    }
-
-    imageContainer.appendChild(img);
-    // Trigger fade in
-    setTimeout(() => img.classList.add('active'), 50);
-  };
-}
-
 function showNextLines() {
   // Remove old lines
   const oldLines = textContainer.querySelectorAll('.text-line');
@@ -104,6 +82,11 @@ function showNextLines() {
 
   setTimeout(() => {
     textContainer.innerHTML = '';
+
+    // Get current image URL
+    const baseUrl = import.meta.env.BASE_URL;
+    const currentImage = images[currentImageIndex];
+    const imageUrl = currentImage ? `${baseUrl}${currentImage.path}` : '';
 
     // Show next 2-3 lines
     const linesToShow = Math.min(
@@ -119,6 +102,12 @@ function showNextLines() {
       const line = document.createElement('div');
       line.className = 'text-line';
       line.textContent = textLines[currentLineIndex];
+
+      // Apply current image as background for text mask effect
+      line.style.backgroundImage = `url('${imageUrl}')`;
+      line.style.backgroundSize = 'cover';
+      line.style.backgroundPosition = 'center';
+
       textContainer.appendChild(line);
 
       // Stagger the fade in
@@ -132,20 +121,12 @@ function showNextLines() {
 }
 
 function startAnimation() {
-  // Load first image
-  loadImage(currentImageIndex);
-
   // Show first lines
   showNextLines();
 
-  // Change images every 8 seconds
+  // Change images and text every 4 seconds
   setInterval(() => {
     currentImageIndex = (currentImageIndex + 1) % images.length;
-    loadImage(currentImageIndex);
-  }, 8000);
-
-  // Change text every 4 seconds
-  setInterval(() => {
     showNextLines();
   }, 4000);
 }

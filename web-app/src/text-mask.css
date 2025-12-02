@@ -14,27 +14,7 @@ body {
 }
 
 #image-container {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 1;
-}
-
-#image-container img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  opacity: 0;
-  transition: opacity 2s ease-in-out;
-}
-
-#image-container img.active {
-  opacity: 1;
+  display: none;
 }
 
 #text-container {
@@ -46,15 +26,6 @@ body {
   max-width: 1200px;
   z-index: 2;
   text-align: center;
-
-  /* Critical: Text masking effect */
-  background-image: inherit;
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: transparent;
-
-  /* Make text act as a window to the background */
-  mix-blend-mode: screen;
 }
 
 .text-line {
@@ -67,11 +38,12 @@ body {
   opacity: 0;
   transform: translateY(20px);
 
-  /* Text appears white, revealing images behind */
-  color: #fff;
-
-  /* Blend mode for masking effect */
-  mix-blend-mode: screen;
+  /* Critical: Image shows through text - Photoshop mask effect */
+  background: url('') center/cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
 }
 
 .text-line.visible {
