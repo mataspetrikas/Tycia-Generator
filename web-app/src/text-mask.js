@@ -6,7 +6,7 @@ let images = [];
 let currentImageIndex = 0;
 let textLines = [];
 let currentLineIndex = 0;
-const maxVisibleLines = 3;
+const maxVisibleLines = 1; // Show one line at a time
 
 // Load data
 async function loadData() {
@@ -74,6 +74,11 @@ async function loadData() {
 }
 
 function showNextLines() {
+  // Loop back to beginning when text is over
+  if (currentLineIndex >= textLines.length) {
+    currentLineIndex = 0;
+  }
+
   // Remove old lines
   const oldLines = textContainer.querySelectorAll('.text-line');
   oldLines.forEach(line => {
@@ -88,47 +93,36 @@ function showNextLines() {
     const currentImage = images[currentImageIndex];
     const imageUrl = currentImage ? `${baseUrl}${currentImage.path}` : '';
 
-    // Show next 2-3 lines
-    const linesToShow = Math.min(
-      maxVisibleLines,
-      textLines.length - currentLineIndex
-    );
+    // Show one line at a time
+    const line = document.createElement('div');
+    line.className = 'text-line';
+    line.textContent = textLines[currentLineIndex];
 
-    for (let i = 0; i < linesToShow; i++) {
-      if (currentLineIndex >= textLines.length) {
-        currentLineIndex = 0; // Loop back
-      }
+    // Apply current image as background for text mask effect
+    line.style.backgroundImage = `url('${imageUrl}')`;
+    line.style.backgroundSize = 'cover';
+    line.style.backgroundPosition = 'center';
 
-      const line = document.createElement('div');
-      line.className = 'text-line';
-      line.textContent = textLines[currentLineIndex];
+    textContainer.appendChild(line);
 
-      // Apply current image as background for text mask effect
-      line.style.backgroundImage = `url('${imageUrl}')`;
-      line.style.backgroundSize = 'cover';
-      line.style.backgroundPosition = 'center';
+    // Fade in
+    setTimeout(() => {
+      line.classList.add('visible');
+    }, 100);
 
-      textContainer.appendChild(line);
-
-      // Stagger the fade in
-      setTimeout(() => {
-        line.classList.add('visible');
-      }, i * 200);
-
-      currentLineIndex++;
-    }
-  }, 800);
+    currentLineIndex++;
+  }, 1000);
 }
 
 function startAnimation() {
-  // Show first lines
+  // Show first line
   showNextLines();
 
-  // Change images and text every 4 seconds
+  // Change images and text every 6 seconds (slower)
   setInterval(() => {
     currentImageIndex = (currentImageIndex + 1) % images.length;
     showNextLines();
-  }, 4000);
+  }, 6000);
 }
 
 // Fullscreen functionality
